@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>Apparel_WolfArmor</defName>
+    <label>Wolf Armor</label>
+    <description>Armor plates covering the body. Protects against gunfire and melee attacks. (Wolf: Artic, Timber)</description>
+    <techLevel>Medieval</techLevel>
+  	<recipeMaker>
+  		<researchPrerequisite>PlateArmor</researchPrerequisite>
+  		<recipeUsers>
+  			<li>ElectricSmithy</li>
+  			<li>FueledSmithy</li>
+  		</recipeUsers>
+  	</recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Animal/Apparel/Body/wolfarmor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Mass>10</Mass>
+      <StuffEffectMultiplierArmor>0.75</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>11</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.5</MoveSpeed>
+    </equippedStatOffsets>
+    <costStuffCount>220</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>UpperHead</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Animal/Apparel/Body/wolfarmor</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>Animal</li>
+        <li>AnimalCUTOUTCOMPLEX</li>
+        <li>Wolf_Arctic</li>
+        <li>Wolf_Timber</li>
+      </tags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+
+</Defs>

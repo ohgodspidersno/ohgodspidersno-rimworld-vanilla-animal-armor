@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Animal Gear Basic</name>
-	<author>Dylan</author>
+	<name>Animal Armor Vanilla [OGSN]</name>
+	<author>Oh God Spiders No</author>
 	<targetVersion>1.0.2059</targetVersion>
 	<description>&lt;color=orange&gt;Requires at least HugsLib 5.0.0 and Animal Gear 0.9.0&lt;/color&gt;\n
 
-Version 0.9.4
+Version 1.0.0
 
-Load order
-// HugsLib
-// Animal Gear
-...
-// Animal Gear Basic
+Requires HugsLib and Animal Gear.
 
-A small mod that adds bear / wolf armor and scarfs for dogs ^^ (wolfs and wargs too) mostly to show the capabilities 
-of my other mod Animal Gear: Base and as an example for people looking to add their own animal gear (which is not that much work, 
-see the "Animal Gear: Base" description or the contents of this mod).
+	Armor for all of your animal warriors.
 
-The armor is pretty helpful if you don't like your animals to get hurt or killed as easily in a raid.
+	The goal of this mod is to:
+		- Add armor for all vanilla game combat animals
+		- Split the "Animal Gear: Basic" and "Rhino Armor" armors up by body part
+		- Add pieces to cover more body parts
 
-You might need to add them to the outfit "Anything" or create a new outfit on the animal-tab.
+	This mod includes/replaces all the art assets from:
+	 	- Animal Gear: Basic
+	 	- Rhino Armor
+
+	(Loading those will create duplicate items)
 
 	</description>
 </ModMetaData>
