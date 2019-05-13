@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Animal Gear Basic</name>
+	<author>Dylan</author>
+	<targetVersion>1.0.2059</targetVersion>
+	<description>&lt;color=orange&gt;Requires at least HugsLib 5.0.0 and Animal Gear 0.9.0&lt;/color&gt;\n
+
+Version 0.9.4
+
+Load order
+// HugsLib
+// Animal Gear
+...
+// Animal Gear Basic
+
+A small mod that adds bear / wolf armor and scarfs for dogs ^^ (wolfs and wargs too) mostly to show the capabilities 
+of my other mod Animal Gear: Base and as an example for people looking to add their own animal gear (which is not that much work, 
+see the "Animal Gear: Base" description or the contents of this mod).
+
+The armor is pretty helpful if you don't like your animals to get hurt or killed as easily in a raid.
+
+You might need to add them to the outfit "Anything" or create a new outfit on the animal-tab.
+
+	</description>
+</ModMetaData>
