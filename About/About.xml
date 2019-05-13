@@ -2,7 +2,9 @@
 <ModMetaData>
 	<name>Animal Armor Vanilla [OGSN]</name>
 	<author>Oh God Spiders No</author>
-	<targetVersion>1.0.2059</targetVersion>
+	<supportedVersions>
+		<li>1.0</li>
+	</supportedVersions>
 	<description>&lt;color=orange&gt;Requires at least HugsLib 5.0.0 and Animal Gear 0.9.0&lt;/color&gt;\n
 
 Version 1.0.0

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+      <defName>Apparel_AnimalPlateArmor</defName>
+      <label>animal plate armor</label>
+      <description>Armor plates designed to cover a four-legged animal's body. Primitive and cumbersome, but provides effective protection against gunfire and melee attacks.</description>
+      <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+      <researchPrerequisite>PlateArmor</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+    </recipeMaker>
+      <graphicData>
+        <texPath>Things/Pawn/Animal/Apparel/Body/plate</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <stuffCategories>
+        <li>Woody</li>
+        <li>Metallic</li>
+      </stuffCategories>
+      <costStuffCount>170</costStuffCount>
+      <statBases>
+        <WorkToMake>38000</WorkToMake>
+        <MaxHitPoints>290</MaxHitPoints>
+        <Mass>15</Mass>
+        <StuffEffectMultiplierArmor>0.73</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>15</EquipDelay>
+      </statBases>
+      <equippedStatOffsets>
+        <MoveSpeed>-0.8</MoveSpeed>
+      </equippedStatOffsets>
+      <thingCategories>
+        <li>Apparel</li>
+      </thingCategories>
+      <apparel>
+        <careIfWornByCorpse>false</careIfWornByCorpse>
+        <bodyPartGroups>
+          <li>Torso</li>
+          <li>Neck</li>
+          <li>Legs</li>
+        </bodyPartGroups>
+        <wornGraphicPath>Things/Pawn/Animal/Apparel/Body/plate</wornGraphicPath>
+        <layers>
+          <li>OnSkin</li>
+        </layers>
+        <tags>
+          <li>Animal</li>
+          <li>AnimalCUTOUTCOMPLEX</li>
+          <!-- <li>MedievalMilitary</li> -->
+
+          <li>Husky</li>
+          <li>LabradorRetriever</li>
+          <li>Cat</li>
+          <li>ACPMunchkinCat</li>
+          <li>WildBoar</li>
+          <li>Wolf_Arctic</li>
+          <li>Wolf_Timber</li>
+          <li>Lynx</li>
+          <li>Cougar</li>
+          <li>Panther</li>
+          <li>Warg</li>
+
+          <li>Bear_Polar</li>
+          <li>Bear_Grizzly</li>
+          <li>Rhinoceros</li>
+
+          <li>Thrumbo</li>
+        </tags>
+        <!-- <defaultOutfitTags>
+          <li>War Animal</li>
+        </defaultOutfitTags> -->
+      </apparel>
+      <colorGenerator Class="ColorGenerator_Options">
+        <options>
+          <li>
+            <weight>10</weight>
+            <only>(0.33,0.33,0.33)</only>
+          </li>
+          <li>
+            <weight>10</weight>
+            <only>(0.65,0.65,0.65)</only>
+          </li>
+          <li>
+            <weight>6</weight>
+            <min>(0.3,0.3,0.3)</min>
+            <max>(0.5,0.5,0.5)</max>
+          </li>
+        </options>
+      </colorGenerator>
+    </ThingDef>
+
+    <ThingDef ParentName="ArmorHelmetMakeableBase">
+      <defName>Apparel_AnimalPlateHelmet</defName>
+      <label>animal plate helmet</label>
+      <description>Sturdy, primitive helmet to protect the head. Protects against gunfire and melee attacks.</description>
+      <techLevel>Medieval</techLevel>
+      <graphicData>
+        <texPath>Things/Pawn/Animal/Apparel/Head/plate</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <stuffCategories>
+        <li>Woody</li>
+        <li>Metallic</li>
+      </stuffCategories>
+      <costStuffCount>40</costStuffCount>
+      <statBases>
+        <WorkToMake>3200</WorkToMake>
+  			<MaxHitPoints>100</MaxHitPoints>
+  			<Mass>2</Mass>
+        <StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>2.5</EquipDelay>
+      </statBases>
+      <recipeMaker>
+    		<researchPrerequisite>PlateArmor</researchPrerequisite>
+        <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+        <recipeUsers>
+          <li>ElectricSmithy</li>
+          <li>FueledSmithy</li>
+        </recipeUsers>
+        <skillRequirements>
+          <Crafting>5</Crafting>
+        </skillRequirements>
+    	</recipeMaker>
+      <thingCategories>
+        <li>Apparel</li>
+      </thingCategories>
+      <apparel>
+        <careIfWornByCorpse>false</careIfWornByCorpse>
+        <bodyPartGroups>
+          <li>Neck</li>
+          <li>UpperHead</li>
+        </bodyPartGroups>
+        <wornGraphicPath>Things/Pawn/Animal/Apparel/Head/plate</wornGraphicPath>
+        <layers>
+          <li>Middle</li>
+        </layers>
+        <tags>
+          <li>Animal</li>
+          <li>AnimalCUTOUTCOMPLEX</li>
+          <!-- <li>MedievalMilitary</li> -->
+
+          <li>Husky</li>
+          <li>LabradorRetriever</li>
+          <li>Cat</li>
+          <li>ACPMunchkinCat</li>
+          <li>WildBoar</li>
+          <li>Wolf_Arctic</li>
+          <li>Wolf_Timber</li>
+          <li>Lynx</li>
+          <li>Cougar</li>
+          <li>Panther</li>
+          <li>Warg</li>
+
+          <li>Bear_Polar</li>
+          <li>Bear_Grizzly</li>
+          <li>Rhinoceros</li>
+
+          <li>Thrumbo</li>
+        </tags>
+        <!-- <defaultOutfitTags>
+          <li>War Animal</li>
+        </defaultOutfitTags> -->
+      </apparel>
+    </ThingDef>
+</Defs>

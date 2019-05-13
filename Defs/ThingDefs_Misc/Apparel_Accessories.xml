@@ -2,9 +2,9 @@
 <Defs>
 
   <ThingDef ParentName="ApparelMakeableBase">
-    <defName>Apparel_FoxBandana</defName>
-    <label>Fox Bandana</label>
-    <description>A stylish accessory for foxes.</description>
+    <defName>Apparel_AnimalScarf</defName>
+    <label>pet scarf</label>
+    <description>A stylish accessory for canines. (Canines: Yorkshire Terrier, Husky, Labrador Retriever, Arctic/Red Fox, Arctic/Timber Wolf, Warg)</description>
     <techLevel>Neolithic</techLevel>
     <recipeMaker>
       <researchPrerequisite />
@@ -15,7 +15,7 @@
       </recipeUsers>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Animal/Apparel/Neck/foxbandana</texPath>
+      <texPath>Things/Pawn/Animal/Apparel/Accessories/animalscarf</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -44,7 +44,7 @@
       <bodyPartGroups>
         <li>Neck</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Animal/Apparel/Neck/foxbandana</wornGraphicPath>
+      <wornGraphicPath>Things/Pawn/Animal/Apparel/Accessories/animalscarf</wornGraphicPath>
       <layers>
         <li>Shell</li>
       </layers>
@@ -52,6 +52,14 @@
         <li>Animal</li>
         <li>Fox_Arctic</li>
         <li>Fox_Red</li>
+        <li>YorkshireTerrier</li>
+        <li>Husky</li>
+        <li>LabradorRetriever</li>
+        <li>Wolf_Arctic</li>
+        <li>Wolf_Timber</li>
+        <li>Warg</li>
+        <li>GermanShepherd</li>
+        <li>Caucasianshepherd</li>
       </tags>
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
