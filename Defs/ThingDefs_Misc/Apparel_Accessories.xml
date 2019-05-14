@@ -4,7 +4,7 @@
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>Apparel_AnimalScarf</defName>
     <label>pet scarf</label>
-    <description>A stylish accessory for canines. (Canines: Yorkshire Terrier, Husky, Labrador Retriever, Arctic/Red Fox, Arctic/Timber Wolf, Warg)</description>
+    <description>A stylish accessory for cool, laid back animals</description>
     <techLevel>Neolithic</techLevel>
     <recipeMaker>
       <researchPrerequisite />
@@ -50,16 +50,62 @@
       </layers>
       <tags>
         <li>Animal</li>
+        <!-- <li>AnimalCUTOUTCOMPLEX</li> -->
+        <!-- <li>Alpaca</li> -->
+        <!-- <li>Alphabeaver</li> -->
+        <!-- <li>Bear_Grizzly</li> -->
+        <!-- <li>Bear_Polar</li> -->
+        <!-- <li>Boomalope</li> -->
+        <!-- <li>Boomrat</li> -->
+        <!-- <li>Capybara</li> -->
+        <!-- <li>Caribou</li> -->
+        <!-- <li>Cassowary</li> -->
+        <!-- <li>Cat</li> -->
+        <!-- <li>Chicken</li> -->
+        <!-- <li>Chinchilla</li> -->
+        <!-- <li>Cobra</li> -->
+        <!-- <li>Cougar</li> -->
+        <!-- <li>Cow</li> -->
+        <!-- <li>Deer</li> -->
+        <!-- <li>Dromedary</li> -->
+        <!-- <li>Elephant</li> -->
+        <!-- <li>Elk</li> -->
+        <!-- <li>Emu</li> -->
         <li>Fox_Arctic</li>
+        <li>Fox_Fennec</li>
         <li>Fox_Red</li>
-        <li>YorkshireTerrier</li>
+        <!-- <li>Gazelle</li> -->
+        <!-- <li>Hare</li> -->
         <li>Husky</li>
+        <!-- <li>Ibex</li> -->
+        <!-- <li>Iguana</li> -->
         <li>LabradorRetriever</li>
+        <!-- <li>Lynx</li> -->
+        <!-- <li>Mech_Centipede</li> -->
+        <!-- <li>Mech_Lancer</li> -->
+        <!-- <li>Mech_Scyther</li> -->
+        <!-- <li>Megascarab</li> -->
+        <!-- <li>Megaspider</li> -->
+        <!-- <li>Megasloth</li> -->
+        <!-- <li>Monkey</li> -->
+        <!-- <li>Muffalo</li> -->
+        <!-- <li>Ostrich</li> -->
+        <!-- <li>Panther</li> -->
+        <!-- <li>Pig</li> -->
+        <!-- <li>Raccoon</li> -->
+        <!-- <li>Rat</li> -->
+        <!-- <li>Rhinoceros</li> -->
+        <!-- <li>Snowhare</li> -->
+        <!-- <li>Spelopede</li> -->
+        <!-- <li>Squirrel</li> -->
+        <!-- <li>Thrumbo</li> -->
+        <!-- <li>Tortoise</li> -->
+        <!-- <li>Turkey</li> -->
+        <li>Warg</li>
+        <!-- <li>WildBoar</li> -->
         <li>Wolf_Arctic</li>
         <li>Wolf_Timber</li>
-        <li>Warg</li>
-        <li>GermanShepherd</li>
-        <li>Caucasianshepherd</li>
+        <li>YorkshireTerrier</li>
       </tags>
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />

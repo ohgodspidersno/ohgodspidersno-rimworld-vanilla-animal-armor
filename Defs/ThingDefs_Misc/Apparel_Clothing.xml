@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Apparel_AnimalClothes</defName>
+    <label>animal clothes</label>
+    <description>Rugged apparel for animals. Provides protection against the elements, as well as minor scuffs and cuts.</description>
+    <techLevel>Industrial</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Animal/Apparel/Body/clothes</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>2700</WorkToMake>
+      <Mass>0.3</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.26</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <costStuffCount>45</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+      <thingCategories>
+        <li>Apparel</li>
+      </thingCategories>
+      <apparel>
+        <careIfWornByCorpse>false</careIfWornByCorpse>
+        <bodyPartGroups>
+          <li>Torso</li>
+          <li>Neck</li>
+          <li>Legs</li>
+        </bodyPartGroups>
+        <wornGraphicPath>Things/Pawn/Animal/Apparel/Body/clothes</wornGraphicPath>
+        <layers>
+          <li>OnSkin</li>
+        </layers>
+        <tags>
+          <li>Animal</li>
+          <li>AnimalCUTOUTCOMPLEX</li>
+          <!-- <li>Alpaca</li> -->
+          <!-- <li>Alphabeaver</li> -->
+          <!-- <li>Bear_Grizzly</li> -->
+          <!-- <li>Bear_Polar</li> -->
+          <!-- <li>Boomalope</li> -->
+          <!-- <li>Boomrat</li> -->
+          <!-- <li>Capybara</li> -->
+          <!-- <li>Caribou</li> -->
+          <!-- <li>Cassowary</li> -->
+          <!-- <li>Cat</li> -->
+          <!-- <li>Chicken</li> -->
+          <!-- <li>Chinchilla</li> -->
+          <!-- <li>Cobra</li> -->
+          <!-- <li>Cougar</li> -->
+          <!-- <li>Cow</li> -->
+          <!-- <li>Deer</li> -->
+          <!-- <li>Dromedary</li> -->
+          <!-- <li>Elephant</li> -->
+          <!-- <li>Elk</li> -->
+          <!-- <li>Emu</li> -->
+          <!-- <li>Fox_Arctic</li> -->
+          <!-- <li>Fox_Fennec</li> -->
+          <!-- <li>Fox_Red</li> -->
+          <!-- <li>Gazelle</li> -->
+          <!-- <li>Hare</li> -->
+          <!-- <li>Husky</li> -->
+          <!-- <li>Ibex</li> -->
+          <!-- <li>Iguana</li> -->
+          <!-- <li>LabradorRetriever</li> -->
+          <!-- <li>Lynx</li> -->
+          <!-- <li>Mech_Centipede</li> -->
+          <!-- <li>Mech_Lancer</li> -->
+          <!-- <li>Mech_Scyther</li> -->
+          <!-- <li>Megascarab</li> -->
+          <!-- <li>Megaspider</li> -->
+          <!-- <li>Megasloth</li> -->
+          <!-- <li>Monkey</li> -->
+          <!-- <li>Muffalo</li> -->
+          <!-- <li>Ostrich</li> -->
+          <!-- <li>Panther</li> -->
+          <!-- <li>Pig</li> -->
+          <!-- <li>Raccoon</li> -->
+          <!-- <li>Rat</li> -->
+          <!-- <li>Rhinoceros</li> -->
+          <!-- <li>Snowhare</li> -->
+          <!-- <li>Spelopede</li> -->
+          <!-- <li>Squirrel</li> -->
+          <!-- <li>Thrumbo</li> -->
+          <!-- <li>Tortoise</li> -->
+          <!-- <li>Turkey</li> -->
+          <!-- <li>Warg</li> -->
+          <!-- <li>WildBoar</li> -->
+          <!-- <li>Wolf_Arctic</li> -->
+          <!-- <li>Wolf_Timber</li> -->
+          <!-- <li>YorkshireTerrier</li> -->
+          <!-- <li>MedievalMilitary</li> -->
+        </tags>
+      </apparel>
+  	<stuffProps>
+        <allowColorGenerators>false</allowColorGenerators>
+      </stuffProps>
+  	<colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+
+</Defs>
