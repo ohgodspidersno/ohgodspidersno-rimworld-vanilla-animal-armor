@@ -21,6 +21,23 @@ Requires HugsLib and Animal Gear.
 			- Armor is one size-fits-all for all animals
 			- Matches human armor stats and crafting costs
 
+
+	Currently Supports the Following Animals:
+
+	Accessories: Megasloth, All Dogs, Wargs, Wolves, and Foxes
+	Clothing: Megasloth, Thrumbo
+
+	Plate Body Armor:
+	Plate Helmet: Bears, Cat, Megasloth, Rhinoceros, Thrumbo, Wild Boar
+
+	Flak Body Armor: Husky, Labrador Retriever
+
+	Coming Soon:
+		- Flak (Advanced) Helmets and Power Armor
+		- All armors for all animals
+		- More accessories
+
+
 	This mod uses and modifies art assets from Animal Gear: Basic
 
 	Loading other Animal Gear mods should not cause conflicts, but will probably result in redundant duplicates of some items.
