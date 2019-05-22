@@ -1,0 +1,13 @@
+<Defs>
+	<HugsLib.UpdateFeatureDef Abstract="true" Name="UpdateFeatureBase">
+		<modNameReadable>Animal Armor: Vanilla</modNameReadable>
+		<modIdentifier>AnimalArmorVanilla</modIdentifier>
+		<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1743423205</linkUrl>
+	</HugsLib.UpdateFeatureDef>
+
+	<HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+		<defName>AnimalArmorVanilla_0_9_2</defName>
+		<assemblyVersion>0.9.2</assemblyVersion>
+		<content>img:UpdateImages/0_9_2_img1|Elephants now have clothing, plate armor, and plate helmets.|Animal armor item descriptions now include an up-to-date list of which animals can currently equip them.</content>
+	</HugsLib.UpdateFeatureDef>
+</Defs>

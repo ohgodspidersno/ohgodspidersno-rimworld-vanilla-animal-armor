@@ -3,7 +3,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
       <defName>Apparel_AnimalPlateArmor</defName>
       <label>animal plate armor</label>
-      <description>Armor plates designed to cover a four-legged animal's body. Primitive and cumbersome, but provides effective protection against gunfire and melee attacks.\n Currently Wearable by:\nBears, Cat, Cougar, Husky, Labrador Retriever, Lynx, Megasloth, Panther, Rhinoceros, Thrumbo, Warg, Wild Boar, Wolves</description>
+      <description>Armor plates designed to cover a four-legged animal's body. Primitive and cumbersome, but provides effective protection against gunfire and melee attacks.\nCurrently Wearable by:\nBears, Cat, Cougar, Elephant, Husky, Labrador Retriever, Lynx, Megasloth, Panther, Rhinoceros, Thrumbo, Warg, Wild Boar, Wolves</description>
       <techLevel>Medieval</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
@@ -71,7 +71,7 @@
           <!-- <li>Cow</li> -->
           <!-- <li>Deer</li> -->
           <!-- <li>Dromedary</li> -->
-          <!-- <li>Elephant</li> -->
+          <li>Elephant</li>
           <!-- <li>Elk</li> -->
           <!-- <li>Emu</li> -->
           <!-- <li>Fox_Arctic</li> -->
@@ -137,7 +137,7 @@
     <ThingDef ParentName="ArmorHelmetMakeableBase">
       <defName>Apparel_AnimalPlateHelmet</defName>
       <label>animal simple helmet</label>
-      <description>A simple helmet for animals which gives moderate protection against sharp attacks. Not effective against blunt weapons.\nCurrently wearable by:\n Bears, Cat, Megasloth, Rhinoceros, Thrumbo, WildBoar, Wolves</description>
+      <description>A simple helmet for animals which gives moderate protection against sharp attacks. Not effective against blunt weapons.\nCurrently wearable by:\nBears, Cat, Elephant, Megasloth, Rhinoceros, Thrumbo, WildBoar, Wolves</description>
       <techLevel>Industrial</techLevel>
       <graphicData>
         <texPath>Things/Pawn/Animal/Apparel/Head/plate</texPath>
@@ -199,7 +199,7 @@
           <!-- <li>Cow</li> -->
           <!-- <li>Deer</li> -->
           <!-- <li>Dromedary</li> -->
-          <!-- <li>Elephant</li> -->
+          <li>Elephant</li>
           <!-- <li>Elk</li> -->
           <!-- <li>Emu</li> -->
           <!-- <li>Fox_Arctic</li> -->

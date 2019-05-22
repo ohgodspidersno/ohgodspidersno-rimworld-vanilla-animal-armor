@@ -1,51 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Animal Armor Vanilla [OGSN]</name>
+	<name>Animal Armor: Vanilla</name>
 	<author>Oh God Spiders No</author>
 	<supportedVersions>
 		<li>1.0</li>
 	</supportedVersions>
-	<description>&lt;color=orange&gt;Requires at least HugsLib 5.0.0 and Animal Gear 0.9.0&lt;/color&gt;\n
-
-Version 0.9.0
-
-Requires HugsLib and Animal Gear.
-
-	Armor for all of your favorite vanilla animals
-
-	The goal of this mod is to:
-		- Add armor for all vanilla animals
-		- Reduce number of craftables by establishing streamlined standards
-			- Three tech levels (Plate, Flak, Power)
-			- Three body parts: Fabric Clothing, Body Armor, Helmet
-			- Armor is one size-fits-all for all animals
-			- Matches human armor stats and crafting costs
-
-
-	Currently Supports the Following Animals:
-
-	Accessories: Megasloth, All Dogs, Wargs, Wolves, and Foxes
-	Clothing: Megasloth, Thrumbo
-
-	Plate Body Armor:
-	Plate Helmet: Bears, Cat, Megasloth, Rhinoceros, Thrumbo, Wild Boar
-
-	Flak Body Armor: Husky, Labrador Retriever
-
-	Coming Soon:
-		- Flak (Advanced) Helmets and Power Armor
-		- All armors for all animals
-		- More accessories
-
-
-	This mod uses and modifies art assets from Animal Gear: Basic
-
-	Loading other Animal Gear mods should not cause conflicts, but will probably result in redundant duplicates of some items.
-
-	Special Thanks To:
-		- Dylan for creating the excellent Animal Gear framework, as well as a few armor and accessory art assets
-		- OnyxHeart for creating the dog gambeson, wolf armor, thrumbo armor, and bear armor art assets that I re-used and/or adapted for this mod
-		- Everyone on the Rimworld/mod-development discord server who was there to answer questions and provide guidance
-
+	<description>
+		Armor for your vanilla animals. Will soon include plate, flak, and spacer armor for all vanilla animals. Currently includes flak/plate armors for the most popular animals.
 	</description>
 </ModMetaData>
