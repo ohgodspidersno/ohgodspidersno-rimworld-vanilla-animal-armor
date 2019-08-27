@@ -40,6 +40,7 @@
       <thingCategories>
         <li>Apparel</li>
       </thingCategories>
+      <generateAllowChance>0</generateAllowChance>
       <apparel>
         <careIfWornByCorpse>false</careIfWornByCorpse>
         <bodyPartGroups>
@@ -54,7 +55,7 @@
         <tags>
           <li>Animal</li>
           <li>AnimalCUTOUTCOMPLEX</li>
-          <!-- <li>Alpaca</li> -->
+          <li>Alpaca</li>
           <!-- <li>Alphabeaver</li> -->
           <li>Bear_Grizzly</li>
           <li>Bear_Polar</li>
@@ -170,6 +171,7 @@
       <thingCategories>
         <li>Apparel</li>
       </thingCategories>
+      <generateAllowChance>0</generateAllowChance>
       <apparel>
         <careIfWornByCorpse>false</careIfWornByCorpse>
         <bodyPartGroups>
@@ -182,7 +184,7 @@
         <tags>
           <li>Animal</li>
           <li>AnimalCUTOUTCOMPLEX</li>
-          <!-- <li>Alpaca</li> -->
+          <li>Alpaca</li>
           <!-- <li>Alphabeaver</li> -->
           <li>Bear_Grizzly</li>
           <li>Bear_Polar</li>
@@ -211,7 +213,7 @@
           <!-- <li>Ibex</li> -->
           <!-- <li>Iguana</li> -->
           <!-- <li>LabradorRetriever</li> -->
-          <!-- <li>Lynx</li> -->
+          <li>Lynx</li>
           <!-- <li>Mech_Centipede</li> -->
           <!-- <li>Mech_Lancer</li> -->
           <!-- <li>Mech_Scyther</li> -->
@@ -220,7 +222,7 @@
           <li>Megasloth</li>
           <!-- <li>Monkey</li> -->
           <!-- <li>Muffalo</li> -->
-          <!-- <li>Ostrich</li> -->
+          <li>Ostrich</li>
           <!-- <li>Panther</li> -->
           <!-- <li>Pig</li> -->
           <!-- <li>Raccoon</li> -->

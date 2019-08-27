@@ -25,6 +25,7 @@
     <thingCategories>
       <li>Apparel</li>
     </thingCategories>
+    <generateAllowChance>0</generateAllowChance>
     <statBases>
       <MaxHitPoints>260</MaxHitPoints>
       <WorkToMake>23000</WorkToMake>
@@ -53,8 +54,8 @@
       </layers>
       <tags>
         <li>Animal</li>
-        <!-- <li>AnimalCUTOUTCOMPLEX</li> -->
-        <!-- <li>Alpaca</li> -->
+        <li>AnimalCUTOUTCOMPLEX</li>
+        <li>Alpaca</li>
         <!-- <li>Alphabeaver</li> -->
         <!-- <li>Bear_Grizzly</li> -->
         <!-- <li>Bear_Polar</li> -->
@@ -83,7 +84,7 @@
         <!-- <li>Ibex</li> -->
         <!-- <li>Iguana</li> -->
         <li>LabradorRetriever</li>
-        <!-- <li>Lynx</li> -->
+        <li>Lynx</li>
         <!-- <li>Mech_Centipede</li> -->
         <!-- <li>Mech_Lancer</li> -->
         <!-- <li>Mech_Scyther</li> -->
@@ -133,12 +134,12 @@
     </colorGenerator>
   </ThingDef>
 
-<!-- Advanced Helmet TK
+<!-- Advanced Helmet -->
 
   <ThingDef ParentName="ArmorHelmetMakeableBase">
       <defName>Apparel_AnimalAdvancedHelmet</defName>
       <label>animal advanced helmet</label>
-      <description>A lightweight combat helmet with a complex design specifically for animals, and reinforced with plasteel. Not effective against blunt weapons.</description>
+      <description>A lightweight combat helmet with a complex design specifically for animals, and reinforced with plasteel. Not effective against blunt weapons. Only equippable by: alpaca.</description>
       <techLevel>Industrial</techLevel>
       <recipeMaker>
         <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
@@ -177,67 +178,67 @@
         </layers>
         <tags>
           <li>Animal</li>
-          <!-/- <li>AnimalCUTOUTCOMPLEX</li> -/->
+          <li>AnimalCUTOUTCOMPLEX</li>
           <li>Alpaca</li>
-          <li>Alphabeaver</li>
-          <li>Bear_Grizzly</li>
-          <li>Bear_Polar</li>
-          <li>Boomalope</li>
-          <li>Boomrat</li>
-          <li>Capybara</li>
-          <li>Caribou</li>
-          <li>Cassowary</li>
-          <li>Cat</li>
-          <li>Chicken</li>
-          <li>Chinchilla</li>
-          <li>Cobra</li>
-          <li>Cougar</li>
-          <li>Cow</li>
-          <li>Deer</li>
-          <li>Dromedary</li>
-          <li>Elephant</li>
-          <li>Elk</li>
-          <li>Emu</li>
-          <li>Fox_Arctic</li>
-          <li>Fox_Fennec</li>
-          <li>Fox_Red</li>
-          <li>Gazelle</li>
-          <li>Hare</li>
-          <li>Husky</li>
-          <li>Ibex</li>
-          <li>Iguana</li>
-          <li>LabradorRetriever</li>
-          <li>Lynx</li>
-          <li>Mech_Centipede</li>
-          <li>Mech_Lancer</li>
-          <li>Mech_Scyther</li>
-          <li>Megascarab</li>
-          <li>Megaspider</li>
-          <li>Megasloth</li>
-          <li>Monkey</li>
-          <li>Muffalo</li>
-          <li>Ostrich</li>
-          <li>Panther</li>
-          <li>Pig</li>
-          <li>Raccoon</li>
-          <li>Rat</li>
-          <li>Rhinoceros</li>
-          <li>Snowhare</li>
-          <li>Spelopede</li>
-          <li>Squirrel</li>
-          <li>Thrumbo</li>
-          <li>Tortoise</li>
-          <li>Turkey</li>
-          <li>Warg</li>
-          <li>WildBoar</li>
-          <li>Wolf_Arctic</li>
-          <li>Wolf_Timber</li>
-          <li>YorkshireTerrier</li>
-          <!-/- <li>IndustrialMilitaryAdvanced</li> -/->
+          <!-- <li>Alphabeaver</li> -->
+          <!-- <li>Bear_Grizzly</li> -->
+          <!-- <li>Bear_Polar</li> -->
+          <!-- <li>Boomalope</li> -->
+          <!-- <li>Boomrat</li> -->
+          <!-- <li>Capybara</li> -->
+          <!-- <li>Caribou</li> -->
+          <!-- <li>Cassowary</li> -->
+          <!-- <li>Cat</li> -->
+          <!-- <li>Chicken</li> -->
+          <!-- <li>Chinchilla</li> -->
+          <!-- <li>Cobra</li> -->
+          <!-- <li>Cougar</li> -->
+          <!-- <li>Cow</li> -->
+          <!-- <li>Deer</li> -->
+          <!-- <li>Dromedary</li> -->
+          <!-- <li>Elephant</li> -->
+          <!-- <li>Elk</li> -->
+          <!-- <li>Emu</li> -->
+          <!-- <li>Fox_Arctic</li> -->
+          <!-- <li>Fox_Fennec</li> -->
+          <!-- <li>Fox_Red</li> -->
+          <!-- <li>Gazelle</li> -->
+          <!-- <li>Hare</li> -->
+          <!-- <li>Husky</li> -->
+          <!-- <li>Ibex</li> -->
+          <!-- <li>Iguana</li> -->
+          <!-- <li>LabradorRetriever</li> -->
+          <!-- <li>Lynx</li> -->
+          <!-- <li>Mech_Centipede</li> -->
+          <!-- <li>Mech_Lancer</li> -->
+          <!-- <li>Mech_Scyther</li> -->
+          <!-- <li>Megascarab</li> -->
+          <!-- <li>Megaspider</li> -->
+          <!-- <li>Megasloth</li> -->
+          <!-- <li>Monkey</li> -->
+          <!-- <li>Muffalo</li> -->
+          <!-- <li>Ostrich</li> -->
+          <!-- <li>Panther</li> -->
+          <!-- <li>Pig</li> -->
+          <!-- <li>Raccoon</li> -->
+          <!-- <li>Rat</li> -->
+          <!-- <li>Rhinoceros</li> -->
+          <!-- <li>Snowhare</li> -->
+          <!-- <li>Spelopede</li> -->
+          <!-- <li>Squirrel</li> -->
+          <!-- <li>Thrumbo</li> -->
+          <!-- <li>Tortoise</li> -->
+          <!-- <li>Turkey</li> -->
+          <!-- <li>Warg</li> -->
+          <!-- <li>WildBoar</li> -->
+          <!-- <li>Wolf_Arctic</li> -->
+          <!-- <li>Wolf_Timber</li> -->
+          <!-- <li>YorkshireTerrier</li> -->
+          <!-- <li>IndustrialMilitaryAdvanced</li> -->
         </tags>
-          <!-/- <defaultOutfitTags>
+          <!-- <defaultOutfitTags>
             <li>War Animal</li>
-          </defaultOutfitTags> -/->
+          </defaultOutfitTags> -->
       </apparel>
       <colorGenerator Class="ColorGenerator_Options">
         <options>
@@ -261,5 +262,4 @@
         </options>
       </colorGenerator>
     </ThingDef>
-  -->
 </Defs>

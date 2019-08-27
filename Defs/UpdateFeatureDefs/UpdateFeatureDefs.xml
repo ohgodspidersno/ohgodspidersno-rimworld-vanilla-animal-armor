@@ -17,3 +17,10 @@
 	<content>img:UpdateImages/0_9_3_img1|Wargs now have clothing, plate helmets, and a re-designed plate armor.</content>
 </HugsLib.UpdateFeatureDef>
 </Defs>
+
+<HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+	<defName>AnimalArmorVanilla_0_9_4</defName>
+	<assemblyVersion>0.9.4</assemblyVersion>
+	<content>Ostriches, alpacas, and lynxes have armor now.</content>
+</HugsLib.UpdateFeatureDef>
+</Defs>
