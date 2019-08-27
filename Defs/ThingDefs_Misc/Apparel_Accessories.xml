@@ -4,7 +4,7 @@
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>Apparel_AnimalScarf</defName>
     <label>pet scarf</label>
-    <description>A stylish accessory for cool, laid back animals.\nCurrently wearable by:\nFoxes, Husky, Labrador Retriever, Megasloth, Warg, Wolves, Yorkshire Terrier</description>
+    <description>A stylish accessory for cool, laid back animals.\nCurrently wearable by:\nAlpaca, Foxes, Husky, Labrador Retriever, Lynx, Megasloth, Warg, Wolves, Yorkshire Terrier</description>
     <techLevel>Neolithic</techLevel>
     <recipeMaker>
       <researchPrerequisite />

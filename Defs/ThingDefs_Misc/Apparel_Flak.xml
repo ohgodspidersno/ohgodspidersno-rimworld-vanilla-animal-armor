@@ -4,7 +4,7 @@
   <ThingDef ParentName="ArmorMachineableBase">
     <defName>Apparel_AnimalFlakArmor</defName>
     <label>animal flak armor</label>
-    <description>A tough fabric animal jacket with armor plates sewn in. While it's not as good as solid armor, it offers effective protection against all manner of attacks while remaining quite comfortable.\nCurrently wearable by:\nHusky, Labrador Retriever</description>
+    <description>A tough fabric animal jacket with armor plates sewn in. While it's not as good as solid armor, it offers effective protection against all manner of attacks while remaining quite comfortable.\nCurrently wearable by:\nAlpaca, Husky, Labrador Retriever</description>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
       <researchPrerequisite>FlakArmor</researchPrerequisite>
@@ -139,7 +139,7 @@
   <ThingDef ParentName="ArmorHelmetMakeableBase">
       <defName>Apparel_AnimalAdvancedHelmet</defName>
       <label>animal advanced helmet</label>
-      <description>A lightweight combat helmet with a complex design specifically for animals, and reinforced with plasteel. Not effective against blunt weapons. Only equippable by: alpaca.</description>
+      <description>A lightweight combat helmet with a complex design specifically for animals, and reinforced with plasteel. Not effective against blunt weapons.\nCurrently wearable by:\nAlpaca</description>
       <techLevel>Industrial</techLevel>
       <recipeMaker>
         <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
