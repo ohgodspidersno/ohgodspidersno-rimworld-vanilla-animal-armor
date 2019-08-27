@@ -8,15 +8,14 @@
 	<HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
 		<defName>AnimalArmorVanilla_0_9_2</defName>
 		<assemblyVersion>0.9.2</assemblyVersion>
-		<content>img:UpdateImages/0_9_2_img1|Elephants now have clothing, plate armor, and plate helmets.|Animal armor item descriptions now include an up-to-date list of which animals can currently equip them.</content>
+		<content>Elephants now have clothing, plate armor, and plate helmets. Animal armor item descriptions now include an up-to-date list of which animals can currently equip them.</content>
 	</HugsLib.UpdateFeatureDef>
 
 <HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
 	<defName>AnimalArmorVanilla_0_9_3</defName>
 	<assemblyVersion>0.9.3</assemblyVersion>
-	<content>img:UpdateImages/0_9_3_img1|Wargs now have clothing, plate helmets, and a re-designed plate armor.</content>
+	<content>Wargs now have clothing, plate helmets, and a re-designed plate armor.</content>
 </HugsLib.UpdateFeatureDef>
-</Defs>
 
 <HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
 	<defName>AnimalArmorVanilla_0_9_4</defName>
