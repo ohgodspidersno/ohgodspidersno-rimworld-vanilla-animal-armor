@@ -43,6 +43,7 @@
       <thingCategories>
         <li>Apparel</li>
       </thingCategories>
+      <generateAllowChance>0</generateAllowChance>
       <apparel>
         <careIfWornByCorpse>false</careIfWornByCorpse>
         <bodyPartGroups>
@@ -97,6 +98,7 @@
     <thingCategories>
       <li>Apparel</li>
     </thingCategories>
+    <generateAllowChance>0</generateAllowChance>
     <apparel>
       <careIfWornByCorpse>false</careIfWornByCorpse>
       <bodyPartGroups>

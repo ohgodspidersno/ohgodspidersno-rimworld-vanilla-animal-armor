@@ -25,6 +25,7 @@
     <thingCategories>
       <li>Apparel</li>
     </thingCategories>
+    <generateAllowChance>0</generateAllowChance>
     <statBases>
       <MaxHitPoints>260</MaxHitPoints>
       <WorkToMake>23000</WorkToMake>
