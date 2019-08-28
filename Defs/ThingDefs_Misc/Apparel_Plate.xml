@@ -138,7 +138,7 @@
     <ThingDef ParentName="ArmorHelmetMakeableBase">
       <defName>Apparel_AnimalPlateHelmet</defName>
       <label>animal simple helmet</label>
-      <description>A simple helmet for animals which gives moderate protection against sharp attacks. Not effective against blunt weapons.\nCurrently wearable by:\nAlpaca, Bears, Cat, Elephant, Lynx, Megasloth, Ostrich, Rhinoceros, Thrumbo, WildBoar, Warg, and Wolves</description>
+      <description>A simple helmet for animals which gives moderate protection against sharp attacks. Not effective against blunt weapons.\nCurrently wearable by:\nAlpaca, Bears, Cat, Elephant, Lynx, Megasloth, Rhinoceros, Thrumbo, WildBoar, Warg, and Wolves</description>
       <techLevel>Industrial</techLevel>
       <graphicData>
         <texPath>Things/Pawn/Animal/Apparel/Head/plate</texPath>
@@ -222,7 +222,7 @@
           <li>Megasloth</li>
           <!-- <li>Monkey</li> -->
           <!-- <li>Muffalo</li> -->
-          <li>Ostrich</li>
+          <!-- <li>Ostrich</li> -->
           <!-- <li>Panther</li> -->
           <!-- <li>Pig</li> -->
           <!-- <li>Raccoon</li> -->
