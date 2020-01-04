@@ -4,7 +4,7 @@
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>Apparel_Howdah</defName>
     <label>howdah</label>
-    <description>A Howdah is designed to carry people on the back of an elephant or other large creature.\nCurrently wearable by:\nElephant</description>
+    <description>A Howdah is designed to carry people on the back of an elephant or other large creature.\nCurrently wearable by:\nElephant.</description>
     <techLevel>Neolithic</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
@@ -69,7 +69,7 @@
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>Apparel_bridle</defName>
     <label>bridle</label>
-    <description>Provides protection and a harness for riding.\nCurrently wearable by:\nThrumbo</description>
+    <description>Provides protection and a harness for riding.\nCurrently wearable by:\nThrumbo.</description>
     <techLevel>Neolithic</techLevel>
   	<recipeMaker>
   		<researchPrerequisite>Smithing</researchPrerequisite>
