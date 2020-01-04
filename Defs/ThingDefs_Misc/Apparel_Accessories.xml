@@ -129,6 +129,11 @@
         <li>Saintbernard</li>
         <li>SCNewfoundland</li>
       </tags>
+      <defaultOutfitTags>
+        <li>Animal</li>
+        <li>Animal Warrior</li>
+        <li>Animal Peaceful</li>
+      </defaultOutfitTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>

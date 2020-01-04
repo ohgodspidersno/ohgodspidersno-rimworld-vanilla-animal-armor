@@ -135,9 +135,10 @@
         <!-- <li>Saintbernard</li> -->
         <!-- <li>SCNewfoundland</li> -->
       </tags>
-      <!-- <defaultOutfitTags>
+      <defaultOutfitTags>
+        <li>Animal</li>
         <li>War Animal</li>
-      </defaultOutfitTags> -->
+      </defaultOutfitTags>
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
@@ -166,7 +167,7 @@
     </thingSetMakerTags>
   </ThingDef>
 
-  <ThingDef ParentName="ArmorHelmetMakeableBase">
+  <ThingDef ParentName="ArmorMachineableBase">
     <defName>Apparel_AnimalPowerArmorHelmet</defName>
     <label>animal power helmet</label>
     <description>A powered helmet with layered plasteel-weave plates, designed specifically for animals.\n\nArmor like this is often used by floofy doggos and other v v good boys.</description>
@@ -291,9 +292,10 @@
         <!-- <li>Saintbernard</li> -->
         <!-- <li>SCNewfoundland</li> -->
       </tags>
-      <!-- <defaultOutfitTags>
+      <defaultOutfitTags>
+        <li>Animal</li>
         <li>War Animal</li>
-      </defaultOutfitTags> -->
+      </defaultOutfitTags>
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">

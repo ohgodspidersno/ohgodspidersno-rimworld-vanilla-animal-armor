@@ -132,9 +132,10 @@
         <li>Saintbernard</li>
         <li>SCNewfoundland</li>
       </tags>
-      <!-- <defaultOutfitTags>
+      <defaultOutfitTags>
+        <li>Animal</li>
         <li>War Animal</li>
-      </defaultOutfitTags> -->
+      </defaultOutfitTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -157,7 +158,7 @@
 
 <!-- Advanced Helmet -->
 
-  <ThingDef ParentName="ArmorHelmetMakeableBase">
+  <ThingDef ParentName="ArmorMachineableBase">
       <defName>Apparel_AnimalAdvancedHelmet</defName>
       <label>animal advanced helmet</label>
       <description>A lightweight combat helmet with a complex design specifically for animals, and reinforced with plasteel. Not effective against blunt weapons.\nCurrently wearable by:\nAlpaca, Cougar, Foxes, Panther.</description>
@@ -279,9 +280,10 @@
           <!-- <li>Saintbernard</li> -->
           <!-- <li>SCNewfoundland</li> -->
         </tags>
-          <!-- <defaultOutfitTags>
-            <li>War Animal</li>
-          </defaultOutfitTags> -->
+        <defaultOutfitTags>
+          <li>Animal</li>
+          <li>War Animal</li>
+        </defaultOutfitTags>
       </apparel>
       <colorGenerator Class="ColorGenerator_Options">
         <options>
