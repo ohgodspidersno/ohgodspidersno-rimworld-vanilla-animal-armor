@@ -37,7 +37,8 @@
       <MoveSpeed>-0.4</MoveSpeed>
     </equippedStatOffsets>
     <thingCategories>
-      <li>Apparel</li>
+      <!-- <li>Apparel</li> -->
+      <li>Animal_Apparel</li>
     </thingCategories>
     <costList>
       <ComponentSpacer>4</ComponentSpacer>
@@ -135,10 +136,6 @@
         <!-- <li>Saintbernard</li> -->
         <!-- <li>SCNewfoundland</li> -->
       </tags>
-      <defaultOutfitTags>
-        <li>Animal</li>
-        <li>War Animal</li>
-      </defaultOutfitTags>
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
@@ -199,6 +196,10 @@
       <Insulation_Heat>2</Insulation_Heat>
       <EquipDelay>4</EquipDelay>
     </statBases>
+    <thingCategories>
+      <!-- <li>Apparel</li> -->
+      <li>Animal_Apparel</li>
+    </thingCategories>
     <costList>
       <ComponentSpacer>1</ComponentSpacer>
       <Plasteel>40</Plasteel>
@@ -292,10 +293,6 @@
         <!-- <li>Saintbernard</li> -->
         <!-- <li>SCNewfoundland</li> -->
       </tags>
-      <defaultOutfitTags>
-        <li>Animal</li>
-        <li>War Animal</li>
-      </defaultOutfitTags>
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">

@@ -5,11 +5,11 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>/ThingDef[count(apparel/tags/li[contains(text(), "AnimalCUTOUTCOMPLEX")])=1]/thingCategories/li[contains(text(), "Apparel")]</xpath>
+				<xpath>/ThingDef[count(apparel/tags/li[contains(text(), "AnimalCUTOUTCOMPLEX")])>0]/thingCategories/li[contains(text(), "Apparel")]</xpath>
 				<success>Invert</success>
 			</li>
 			<li Class="PatchOperationReplace">
-				<xpath>*/ThingDef[count(apparel/tags/li[contains(text(), "AnimalCUTOUTCOMPLEX")])=1]/thingCategories/li[contains(text(), "Apparel")]/text()</xpath>
+				<xpath>*/ThingDef[count(apparel/tags/li[contains(text(), "AnimalCUTOUTCOMPLEX")])>0]/thingCategories/li[contains(text(), "Apparel")]/text()</xpath>
 				<value>
 					<thingCategories>Animal_Apparel</thingCategories>
 				</value>

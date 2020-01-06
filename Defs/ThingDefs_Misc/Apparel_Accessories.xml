@@ -37,7 +37,8 @@
       <li>Leathery</li>
     </stuffCategories>
     <thingCategories>
-      <li>Apparel</li>
+      <!-- <li>Apparel</li> -->
+      <li>Animal_Apparel</li>
     </thingCategories>
     <generateAllowChance>0</generateAllowChance>
     <apparel>
@@ -129,11 +130,6 @@
         <li>Saintbernard</li>
         <li>SCNewfoundland</li>
       </tags>
-      <defaultOutfitTags>
-        <li>Animal</li>
-        <li>Animal Warrior</li>
-        <li>Animal Peaceful</li>
-      </defaultOutfitTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>

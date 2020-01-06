@@ -23,7 +23,8 @@
       <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <thingCategories>
-      <li>Apparel</li>
+      <!-- <li>Apparel</li> -->
+      <li>Animal_Apparel</li>
     </thingCategories>
     <generateAllowChance>0</generateAllowChance>
     <statBases>
@@ -132,10 +133,6 @@
         <li>Saintbernard</li>
         <li>SCNewfoundland</li>
       </tags>
-      <defaultOutfitTags>
-        <li>Animal</li>
-        <li>War Animal</li>
-      </defaultOutfitTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -191,6 +188,10 @@
         <ComponentIndustrial>2</ComponentIndustrial>
   			<Plasteel>10</Plasteel>
       </costList>
+      <thingCategories>
+        <!-- <li>Apparel</li> -->
+        <li>Animal_Apparel</li>
+      </thingCategories>
       <apparel>
         <bodyPartGroups>
           <li>UpperHead</li>
@@ -280,10 +281,6 @@
           <!-- <li>Saintbernard</li> -->
           <!-- <li>SCNewfoundland</li> -->
         </tags>
-        <defaultOutfitTags>
-          <li>Animal</li>
-          <li>War Animal</li>
-        </defaultOutfitTags>
       </apparel>
       <colorGenerator Class="ColorGenerator_Options">
         <options>
