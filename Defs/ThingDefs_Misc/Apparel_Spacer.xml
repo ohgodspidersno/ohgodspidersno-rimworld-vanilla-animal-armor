@@ -4,7 +4,7 @@
   <ThingDef ParentName="ArmorMachineableBase">
     <defName>Apparel_AnimalPowerArmor</defName>
     <label>animal power armor</label>
-    <description>A suit of light powered armor specially designed for combat animals. Layered plasteel-weave plates are very effective at stopping attacks, with few vulnerable joint sections. Neuro-memetic assistors allow an animal to wear the armor and still move easily.\n\nArmor like this is often used by floofy doggos and other v v good boys.\n\nCurrently wearable by: Foxes, Warg</description>
+    <description>A suit of light powered armor specially designed for combat animals. Layered plasteel-weave plates are very effective at stopping attacks, with few vulnerable joint sections. Neuro-memetic assistors allow an animal to wear the armor and still move easily.\n\nArmor like this is often used by floofy doggos and other v v good boys.\n\nCurrently wearable by: Bears, Bull, Capybara, Chicken, Chinchilla, Cow, Dromedary, Elephant, Foxes, Husky, Megasloth, Monkey, Muffalo, Rhinoceros, Thrumbo, Yorkshire Terrier, Warg</description>
     <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -60,22 +60,23 @@
         <li>AnimalCUTOUTCOMPLEX</li>
         <!-- <li>Alpaca</li> -->
         <!-- <li>Alphabeaver</li> -->
-        <!-- <li>Bear_Grizzly</li> -->
-        <!-- <li>Bear_Polar</li> -->
+        <li>Bear_Grizzly</li>
+        <li>Bear_Polar</li>
         <!-- <li>Boomalope</li> -->
         <!-- <li>Boomrat</li> -->
-        <!-- <li>Capybara</li> -->
+        <li>Bull</li>
+        <li>Capybara</li>
         <!-- <li>Caribou</li> -->
         <!-- <li>Cassowary</li> -->
         <!-- <li>Cat</li> -->
-        <!-- <li>Chicken</li> -->
-        <!-- <li>Chinchilla</li> -->
+        <li>Chicken</li>
+        <li>Chinchilla</li>
         <!-- <li>Cobra</li> -->
         <!-- <li>Cougar</li> -->
-        <!-- <li>Cow</li> -->
+        <li>Cow</li>
         <!-- <li>Deer</li> -->
-        <!-- <li>Dromedary</li> -->
-        <!-- <li>Elephant</li> -->
+        <li>Dromedary</li>
+        <li>Elephant</li>
         <!-- <li>Elk</li> -->
         <!-- <li>Emu</li> -->
         <li>Fox_Arctic</li>
@@ -83,7 +84,7 @@
         <li>Fox_Red</li>
         <!-- <li>Gazelle</li> -->
         <!-- <li>Hare</li> -->
-        <!-- <li>Husky</li> -->
+        <li>Husky</li>
         <!-- <li>Ibex</li> -->
         <!-- <li>Iguana</li> -->
         <!-- <li>LabradorRetriever</li> -->
@@ -93,26 +94,26 @@
         <!-- <li>Mech_Scyther</li> -->
         <!-- <li>Megascarab</li> -->
         <!-- <li>Megaspider</li> -->
-        <!-- <li>Megasloth</li> -->
-        <!-- <li>Monkey</li> -->
-        <!-- <li>Muffalo</li> -->
+        <li>Megasloth</li>
+        <li>Monkey</li>
+        <li>Muffalo</li>
         <!-- <li>Ostrich</li> -->
         <!-- <li>Panther</li> -->
         <!-- <li>Pig</li> -->
         <!-- <li>Raccoon</li> -->
         <!-- <li>Rat</li> -->
-        <!-- <li>Rhinoceros</li> -->
+        <li>Rhinoceros</li>
         <!-- <li>Snowhare</li> -->
         <!-- <li>Spelopede</li> -->
         <!-- <li>Squirrel</li> -->
-        <!-- <li>Thrumbo</li> -->
+        <li>Thrumbo</li>
         <!-- <li>Tortoise</li> -->
         <!-- <li>Turkey</li> -->
         <li>Warg</li>
         <!-- <li>WildBoar</li> -->
         <!-- <li>Wolf_Arctic</li> -->
         <!-- <li>Wolf_Timber</li> -->
-        <!-- <li>YorkshireTerrier</li> -->
+        <li>YorkshireTerrier</li>
         <!-- <li>SpacerMilitary</li> -->
 
         <!-- Spidercamp's Dog Pack -->
@@ -167,7 +168,7 @@
   <ThingDef ParentName="ArmorMachineableBase">
     <defName>Apparel_AnimalPowerArmorHelmet</defName>
     <label>animal power helmet</label>
-    <description>A powered helmet with layered plasteel-weave plates, designed specifically for animals.\n\nArmor like this is often used by floofy doggos and other v v good boys.\n\nCurrently wearable by: Foxes, Warg</description>
+    <description>A powered helmet with layered plasteel-weave plates, designed specifically for animals.\n\nArmor like this is often used by floofy doggos and other v v good boys.\n\nCurrently wearable by: Bears, Bull, Capybara, Chicken, Chinchilla, Cow, Dromedary, Elephant, Foxes, Husky, Megasloth, Monkey, Muffalo, Rhinoceros, Thrumbo, Yorkshire Terrier, Warg</description>
     <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -217,22 +218,23 @@
         <li>AnimalCUTOUTCOMPLEX</li>
         <!-- <li>Alpaca</li> -->
         <!-- <li>Alphabeaver</li> -->
-        <!-- <li>Bear_Grizzly</li> -->
-        <!-- <li>Bear_Polar</li> -->
+        <li>Bear_Grizzly</li>
+        <li>Bear_Polar</li>
         <!-- <li>Boomalope</li> -->
         <!-- <li>Boomrat</li> -->
-        <!-- <li>Capybara</li> -->
+        <li>Bull</li>
+        <li>Capybara</li>
         <!-- <li>Caribou</li> -->
         <!-- <li>Cassowary</li> -->
         <!-- <li>Cat</li> -->
-        <!-- <li>Chicken</li> -->
-        <!-- <li>Chinchilla</li> -->
+        <li>Chicken</li>
+        <li>Chinchilla</li>
         <!-- <li>Cobra</li> -->
         <!-- <li>Cougar</li> -->
-        <!-- <li>Cow</li> -->
+        <li>Cow</li>
         <!-- <li>Deer</li> -->
-        <!-- <li>Dromedary</li> -->
-        <!-- <li>Elephant</li> -->
+        <li>Dromedary</li>
+        <li>Elephant</li>
         <!-- <li>Elk</li> -->
         <!-- <li>Emu</li> -->
         <li>Fox_Arctic</li>
@@ -240,7 +242,7 @@
         <li>Fox_Red</li>
         <!-- <li>Gazelle</li> -->
         <!-- <li>Hare</li> -->
-        <!-- <li>Husky</li> -->
+        <li>Husky</li>
         <!-- <li>Ibex</li> -->
         <!-- <li>Iguana</li> -->
         <!-- <li>LabradorRetriever</li> -->
@@ -250,26 +252,26 @@
         <!-- <li>Mech_Scyther</li> -->
         <!-- <li>Megascarab</li> -->
         <!-- <li>Megaspider</li> -->
-        <!-- <li>Megasloth</li> -->
-        <!-- <li>Monkey</li> -->
-        <!-- <li>Muffalo</li> -->
+        <li>Megasloth</li>
+        <li>Monkey</li>
+        <li>Muffalo</li>
         <!-- <li>Ostrich</li> -->
         <!-- <li>Panther</li> -->
         <!-- <li>Pig</li> -->
         <!-- <li>Raccoon</li> -->
         <!-- <li>Rat</li> -->
-        <!-- <li>Rhinoceros</li> -->
+        <li>Rhinoceros</li>
         <!-- <li>Snowhare</li> -->
         <!-- <li>Spelopede</li> -->
         <!-- <li>Squirrel</li> -->
-        <!-- <li>Thrumbo</li> -->
+        <li>Thrumbo</li>
         <!-- <li>Tortoise</li> -->
         <!-- <li>Turkey</li> -->
         <li>Warg</li>
         <!-- <li>WildBoar</li> -->
         <!-- <li>Wolf_Arctic</li> -->
         <!-- <li>Wolf_Timber</li> -->
-        <!-- <li>YorkshireTerrier</li> -->
+        <li>YorkshireTerrier</li>
         <!-- <li>SpacerMilitary</li> -->
 
         <!-- Spidercamp's Dog Pack -->
