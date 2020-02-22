@@ -17,7 +17,7 @@
       </recipeUsers>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Animal/Apparel/Body/spacer</texPath>
+      <texPath>Things/Pawn/Animal/Apparel/Body/power</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <generateCommonality>2</generateCommonality>
@@ -51,7 +51,7 @@
 				<li>Legs</li>
         <li>Neck</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Animal/Apparel/Body/spacer</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Animal/Apparel/Body/power</wornGraphicPath>
 			<layers>
 				<li>Middle</li>
 			</layers>
@@ -181,7 +181,7 @@
       </recipeUsers>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Animal/Apparel/Head/spacer</texPath>
+      <texPath>Things/Pawn/Animal/Apparel/Head/power</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <generateCommonality>2</generateCommonality>
@@ -209,7 +209,7 @@
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Animal/Apparel/Head/spacer</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Animal/Apparel/Head/power</wornGraphicPath>
 			<layers>
 				<li>Shell</li>
 			</layers>
