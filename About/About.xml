@@ -4,8 +4,20 @@
 	<author>Oh God Spiders No</author>
 	<supportedVersions>
 		<li>1.0</li>
+		<li>1.1</li>
 	</supportedVersions>
+	<packageId>OhGodSpidersNo.AnimalArmor.Vanilla</packageId>
 	<description>
-		Armor for your vanilla animals. Will soon include plate, flak, and spacer armor for all vanilla animals. Currently includes flak/plate armors for the most popular animals, as well as a few spacer armors.
+		Armor for your vanilla animals. Will soon include plate, flak, and spacer armor for all vanilla animals.
 	</description>
+	<modDependencies>
+		<li>
+			<packageId>Dylan.AnimalGear</packageId>
+			<displayName>Animal Gear</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/1541438907</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+			<li>Dylan.AnimalGear</li>
+	</loadAfter>
 </ModMetaData>
