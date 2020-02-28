@@ -10,4 +10,14 @@
 	<description>
 		Armor for your vanilla animals. Will soon include plate, flak, and spacer armor for all vanilla animals.
 	</description>
+	<modDependencies>
+		<li>
+			<packageId>Dylan.AnimalGear</packageId>
+			<displayName>Animal Gear</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/1541438907</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+			<li>Dylan.AnimalGear</li>
+	</loadAfter>
 </ModMetaData>
