@@ -8,7 +8,10 @@
 	</supportedVersions>
 	<packageId>OhGodSpidersNo.AnimalArmor.Vanilla</packageId>
 	<description>
-		Armor for your vanilla animals. Will soon include plate, flak, and spacer armor for all vanilla animals.
+&lt;color=yellow&gt;INCOMPATIBILITY NOTE:&lt;/color&gt;
+Good news! There is only one mod that this is incompatible with: &lt;color=orange&gt;Animal Variety Coats&lt;/color&gt;
+
+Unfortunately this can only be fixed on their end. If you'd like them to address this, ask them to &lt;color=orange&gt;"replace the off-center cougar south images"&lt;/color&gt;
 	</description>
 	<modDependencies>
 		<li>
@@ -20,4 +23,7 @@
 	<loadAfter>
 			<li>Dylan.AnimalGear</li>
 	</loadAfter>
+	<incompatibleWith>
+		<li>cucumpear.azrael.varietycoats</li>
+	</incompatibleWith>
 </ModMetaData>
