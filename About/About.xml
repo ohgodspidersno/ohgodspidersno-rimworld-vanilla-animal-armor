@@ -11,7 +11,7 @@
 &lt;color=yellow&gt;INCOMPATIBILITY NOTE:&lt;/color&gt;
 Good news! There is only one mod that this is incompatible with: &lt;color=orange&gt;Animal Variety Coats&lt;/color&gt;
 
-Unfortunately this can only be fixed on their end. If you'd like them to address this, ask them to &lt;color=orange&gt;"replace the off-center cougar south images"&lt;/color&gt;
+It's a soft incompatibility. It will play fine but cougar armor will look off center due to a small error on their end. A patch has been created, but they have not put the updated version on steam yet.
 	</description>
 	<modDependencies>
 		<li>
@@ -23,7 +23,7 @@ Unfortunately this can only be fixed on their end. If you'd like them to address
 	<loadAfter>
 			<li>Dylan.AnimalGear</li>
 	</loadAfter>
-	<incompatibleWith>
-		<li>cucumpear.azrael.varietycoats</li>
-	</incompatibleWith>
+	<!-- <incompatibleWith> -->
+		<!-- <li>cucumpear.azrael.varietycoats</li> -->
+	<!-- </incompatibleWith> -->
 </ModMetaData>
