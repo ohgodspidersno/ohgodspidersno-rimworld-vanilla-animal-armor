@@ -7,11 +7,7 @@
 		<li>1.1</li>
 	</supportedVersions>
 	<packageId>OhGodSpidersNo.AnimalArmor.Vanilla</packageId>
-	<description>
-&lt;color=yellow&gt;INCOMPATIBILITY NOTE:&lt;/color&gt;
-Good news! There is only one mod that this is incompatible with: &lt;color=orange&gt;Animal Variety Coats&lt;/color&gt;
-
-It's a soft incompatibility. It will play fine but cougar armor will look off center due to a small error on their end. A patch has been created, but they have not put the updated version on steam yet.
+	<description>Powerful armor, warm clothes, and stylish accessories for your favorite animals.
 	</description>
 	<modDependencies>
 		<li>
