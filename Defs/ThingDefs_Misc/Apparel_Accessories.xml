@@ -130,6 +130,11 @@
         <li>Saintbernard</li>
         <li>SCNewfoundland</li>
       </tags>
+      <defaultOutfitTags>
+        <li>Anything</li>
+        <li>Soldier</li>
+        <li>Worker</li>
+      </defaultOutfitTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>

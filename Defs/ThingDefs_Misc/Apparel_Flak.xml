@@ -133,6 +133,10 @@
         <li>Saintbernard</li>
         <li>SCNewfoundland</li>
       </tags>
+      <defaultOutfitTags>
+        <li>Anything</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
@@ -281,6 +285,10 @@
           <!-- <li>Saintbernard</li> -->
           <!-- <li>SCNewfoundland</li> -->
         </tags>
+        <defaultOutfitTags>
+          <li>Anything</li>
+          <li>Soldier</li>
+        </defaultOutfitTags>
       </apparel>
       <colorGenerator Class="ColorGenerator_Options">
         <options>

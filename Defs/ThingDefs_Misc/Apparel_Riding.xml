@@ -61,9 +61,9 @@
           <li>Elephant</li>
         </tags>
         <defaultOutfitTags>
-          <li>Animal</li>
-          <li>Animal Warrior</li>
-          <li>Animal Peaceful</li>
+          <li>Anything</li>
+          <li>Soldier</li>
+          <li>Worker</li>
         </defaultOutfitTags>
       </apparel>
   	<stuffProps>
@@ -120,9 +120,9 @@
         <li>Thrumbo</li>
       </tags>
       <defaultOutfitTags>
-        <li>Animal</li>
-        <li>Animal Warrior</li>
-        <li>Animal Peaceful</li>
+        <li>Anything</li>
+        <li>Soldier</li>
+        <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />

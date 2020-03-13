@@ -137,6 +137,10 @@
         <!-- <li>Saintbernard</li> -->
         <!-- <li>SCNewfoundland</li> -->
       </tags>
+      <defaultOutfitTags>
+        <li>Anything</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
@@ -295,6 +299,10 @@
         <!-- <li>Saintbernard</li> -->
         <!-- <li>SCNewfoundland</li> -->
       </tags>
+      <defaultOutfitTags>
+        <li>Anything</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
       <useDeflectMetalEffect>true</useDeflectMetalEffect>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
