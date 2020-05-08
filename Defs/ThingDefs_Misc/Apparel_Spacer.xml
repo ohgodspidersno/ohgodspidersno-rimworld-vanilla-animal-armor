@@ -4,7 +4,7 @@
   <ThingDef ParentName="ArmorMachineableBase">
     <defName>Apparel_AnimalPowerArmor</defName>
     <label>animal power armor</label>
-    <description>A suit of light powered armor specially designed for combat animals. Layered plasteel-weave plates are very effective at stopping attacks, with few vulnerable joint sections. Neuro-memetic assistors allow an animal to wear the armor and still move easily.\n\nArmor like this is often used by floofy doggos and other v v good boys.\n\nCurrently wearable by: Bears, Bull, Capybara, Chicken, Chinchilla, Cow, Dromedary, Elephant, Foxes, Husky, Megasloth, Monkey, Muffalo, Rhinoceros, Thrumbo, Yorkshire Terrier, Warg</description>
+    <description>A suit of light powered armor specially designed for combat animals. Layered plasteel-weave plates are very effective at stopping attacks, with few vulnerable joint sections. Neuro-memetic assistors allow an animal to wear the armor and still move easily.\n\nArmor like this is often used by floofy doggos and other v v good boys.\n\nCurrently wearable by: Bears, Bull, Capybara, Chicken, Chinchilla, Cow, Dromedary, Elephant, Foxes, Husky, Megasloth, Monkey, Muffalo, Rhinoceros, Squirrel, Thrumbo, Yorkshire Terrier, Warg</description>
     <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -105,7 +105,7 @@
         <li>Rhinoceros</li>
         <!-- <li>Snowhare</li> -->
         <!-- <li>Spelopede</li> -->
-        <!-- <li>Squirrel</li> -->
+        <li>Squirrel</li>
         <li>Thrumbo</li>
         <!-- <li>Tortoise</li> -->
         <!-- <li>Turkey</li> -->
@@ -172,7 +172,7 @@
   <ThingDef ParentName="ArmorMachineableBase">
     <defName>Apparel_AnimalPowerArmorHelmet</defName>
     <label>animal power helmet</label>
-    <description>A powered helmet with layered plasteel-weave plates, designed specifically for animals.\n\nArmor like this is often used by floofy doggos and other v v good boys.\n\nCurrently wearable by: Bears, Bull, Capybara, Chicken, Chinchilla, Cow, Dromedary, Elephant, Foxes, Husky, Megasloth, Monkey, Muffalo, Rhinoceros, Thrumbo, Yorkshire Terrier, Warg</description>
+    <description>A powered helmet with layered plasteel-weave plates, designed specifically for animals.\n\nArmor like this is often used by floofy doggos and other v v good boys.\n\nCurrently wearable by: Bears, Bull, Capybara, Chicken, Chinchilla, Cow, Dromedary, Elephant, Foxes, Husky, Megasloth, Monkey, Muffalo, Rhinoceros, Squirrel, Thrumbo, Yorkshire Terrier, Warg</description>
     <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -267,7 +267,7 @@
         <li>Rhinoceros</li>
         <!-- <li>Snowhare</li> -->
         <!-- <li>Spelopede</li> -->
-        <!-- <li>Squirrel</li> -->
+        <li>Squirrel</li>
         <li>Thrumbo</li>
         <!-- <li>Tortoise</li> -->
         <!-- <li>Turkey</li> -->
