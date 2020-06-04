@@ -8,7 +8,7 @@
 			<match Class="PatchOperationSequence">
 				<operations>
 				
-									<!-- ======== Howdah (may wanna change that)========-->
+									<!-- ======== Howdah (might wanna change that)========-->
 									
 					<li Class="PatchOperationReplace">
 					<xpath>/Defs/ThingDef[defName="Apparel_Howdah"]/statBases/ArmorRating_Sharp</xpath>
