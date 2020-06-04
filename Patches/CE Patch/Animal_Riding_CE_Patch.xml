@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Combat Extended</li>
+		</mods>
+			<match Class="PatchOperationSequence">
+				<operations>
+				
+									<!-- ======== Howdah (might wanna change that)========-->
+									
+					<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Apparel_Howdah"]/statBases/ArmorRating_Sharp</xpath>
+						<value>
+							<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+						</value>
+					</li>
+					
+					<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Apparel_Howdah"]/statBases/ArmorRating_Blunt</xpath>
+						<value>
+							<ArmorRating_Blunt>1</ArmorRating_Blunt>
+						</value>
+					</li>
+					
+									<!-- ======== Bridle ========-->
+					
+					
+					<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="Apparel_bridle"]/statBases/StuffEffectMultiplierArmor</xpath>
+						<value>
+							<StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
+						</value>
+					</li>
+				</operations>
+			</match>
+	</Operation>
+</Patch>
