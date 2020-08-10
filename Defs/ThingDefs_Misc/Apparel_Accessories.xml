@@ -19,7 +19,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
-      <WorkToMake>5000</WorkToMake>
+      <WorkToMake>1800</WorkToMake>
       <MaxHitPoints>50</MaxHitPoints>
       <MarketValue>50</MarketValue>
       <Mass>0.1</Mass>
