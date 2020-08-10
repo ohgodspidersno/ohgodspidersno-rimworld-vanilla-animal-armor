@@ -4,7 +4,7 @@
   <ThingDef ParentName="ArmorMachineableBase">
     <defName>Apparel_AnimalFlakArmor</defName>
     <label>animal flak armor</label>
-    <description>A tough fabric animal jacket with armor plates sewn in. While it's not as good as solid armor, it offers effective protection against all manner of attacks while remaining quite comfortable.\nCurrently wearable by:\nAlpaca, Cougar, Foxes, Husky, Labrador Retriever, Panther, Squirrel, and the dogs from Spidercamp's dog pack.</description>
+    <description>A tough fabric animal jacket with armor plates sewn in. While it's not as good as solid armor, it offers effective protection against all manner of attacks while remaining quite comfortable.\nCurrently wearable by:\nAlpaca, Cobra, Cougar, Foxes, Husky, Labrador Retriever, Megascarab, Panther, Spelopede, Squirrel, and the dogs from Spidercamp's dog pack.</description>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
       <researchPrerequisite>FlakArmor</researchPrerequisite>
@@ -162,7 +162,7 @@
   <ThingDef ParentName="ArmorMachineableBase">
       <defName>Apparel_AnimalAdvancedHelmet</defName>
       <label>animal advanced helmet</label>
-      <description>A lightweight combat helmet with a complex design specifically for animals, and reinforced with plasteel. Not effective against blunt weapons.\nCurrently wearable by:\nAlpaca, Cougar, Foxes, Panther, Squirrel.</description>
+      <description>A lightweight combat helmet with a complex design specifically for animals, and reinforced with plasteel. Not effective against blunt weapons.\nCurrently wearable by:\nAlpaca, Cobra, Cougar, Foxes, Megascarab, Panther, Spelopede, Squirrel.</description>
       <techLevel>Industrial</techLevel>
       <recipeMaker>
         <researchPrerequisite>FlakArmor</researchPrerequisite>

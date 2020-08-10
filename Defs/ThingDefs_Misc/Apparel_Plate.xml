@@ -3,8 +3,8 @@
   <ThingDef ParentName="ArmorMachineableBase">
     <defName>Apparel_AnimalPlateArmor</defName>
     <label>animal plate armor</label>
-    <description>Armor plates designed to cover a four-legged animal's body. Primitive and cumbersome, but provides effective protection against gunfire and melee attacks.\nCurrently Wearable by:\nAlpaca, Bears, Cat, Cougar, Elephant, Foxes, Husky,
-      Labrador Retriever, Lynx, Megasloth, Ostrich, Panther, Rhinoceros, Squirrel, Thrumbo, Warg, Wild Boar, Wolves, and the dogs from Spidercamp's dog pack.</description>
+    <description>Armor plates designed to cover a four-legged animal's body. Primitive and cumbersome, but provides effective protection against gunfire and melee attacks.\nCurrently Wearable by:\nAlpaca, Bears, Cat, Cobra, Cougar, Elephant, Foxes, Husky,
+      Labrador Retriever, Lynx, Megascarab, Megasloth, Ostrich, Panther, Rhinoceros, Spelopede, Squirrel, Thrumbo, Warg, Wild Boar, Wolves, and the dogs from Spidercamp's dog pack.</description>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
@@ -162,7 +162,7 @@
   <ThingDef ParentName="ArmorMachineableBase">
     <defName>Apparel_AnimalPlateHelmet</defName>
     <label>animal simple helmet</label>
-    <description>A simple helmet for animals which gives moderate protection against sharp attacks. Not effective against blunt weapons.\nCurrently wearable by:\nAlpaca, Bears, Cat, Elephant, Lynx, Megasloth, Rhinoceros, Squirrel, Thrumbo, WildBoar, Warg, and Wolves.</description>
+    <description>A simple helmet for animals which gives moderate protection against sharp attacks. Not effective against blunt weapons.\nCurrently wearable by:\nAlpaca, Bears, Cat, Cobra, Elephant, Lynx, Megascarab, Megasloth, Rhinoceros, Spelopede, Squirrel, Thrumbo, WildBoar, Warg, and Wolves.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
       <texPath>Things/Pawn/Animal/Apparel/Head/plate</texPath>

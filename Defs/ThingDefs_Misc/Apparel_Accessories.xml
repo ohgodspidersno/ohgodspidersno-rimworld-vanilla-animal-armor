@@ -4,7 +4,7 @@
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>Apparel_AnimalScarf</defName>
     <label>pet scarf</label>
-    <description>A stylish accessory for cool, laid back animals.\nCurrently wearable by:\nAlpaca, Cougar, Foxes, Husky, Labrador Retriever, Lynx, Megasloth, Panther, Squirrel, Warg, Wolves, Yorkshire Terrier, and the dogs from Spidercamp's dog pack.</description>
+    <description>A stylish accessory for cool, laid back animals.\nCurrently wearable by:\nAlpaca, Cobra, Cougar, Foxes, Husky, Labrador Retriever, Lynx, Megasloth, Megascarab, Megaspider, Panther, Spelopede, Squirrel, Warg, Wolves, Yorkshire Terrier, and the dogs from Spidercamp's dog pack.</description>
     <techLevel>Neolithic</techLevel>
     <recipeMaker>
       <researchPrerequisite />

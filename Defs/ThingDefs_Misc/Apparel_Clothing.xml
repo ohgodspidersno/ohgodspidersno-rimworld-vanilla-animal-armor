@@ -4,8 +4,7 @@
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>Apparel_AnimalClothes</defName>
     <label>animal clothes</label>
-    <description>Rugged apparel for animals. Provides protection against the elements, as well as minor scuffs and cuts.\nCurrently wearable by:\nAlpaca, Cougar, Foxes, Lynx, Megasloth, Panther, Squirrel, Thrumbo, Warg.</description>
-
+    <description>Rugged apparel for animals. Provides protection against the elements, as well as minor scuffs and cuts.\nCurrently wearable by:\nAlpaca, Cougar, Foxes, Lynx, Megasloth, Megascarab, Megaspider, Panther, Spelopede, Squirrel, Thrumbo, Warg.</description>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
