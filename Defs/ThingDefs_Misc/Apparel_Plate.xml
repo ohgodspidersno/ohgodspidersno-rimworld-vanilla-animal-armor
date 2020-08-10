@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <ThingDef ParentName="ArmorMachineableBase">
-      <defName>Apparel_AnimalPlateArmor</defName>
-      <label>animal plate armor</label>
-      <description>Armor plates designed to cover a four-legged animal's body. Primitive and cumbersome, but provides effective protection against gunfire and melee attacks.\nCurrently Wearable by:\nAlpaca, Bears, Cat, Cougar, Elephant, Foxes, Husky, Labrador Retriever, Lynx, Megasloth, Ostrich, Panther, Rhinoceros, Squirrel, Thrumbo, Warg, Wild Boar, Wolves, and the dogs from Spidercamp's dog pack.</description>
-      <techLevel>Medieval</techLevel>
+    <defName>Apparel_AnimalPlateArmor</defName>
+    <label>animal plate armor</label>
+    <description>Armor plates designed to cover a four-legged animal's body. Primitive and cumbersome, but provides effective protection against gunfire and melee attacks.\nCurrently Wearable by:\nAlpaca, Bears, Cat, Cougar, Elephant, Foxes, Husky,
+      Labrador Retriever, Lynx, Megasloth, Ostrich, Panther, Rhinoceros, Squirrel, Thrumbo, Warg, Wild Boar, Wolves, and the dogs from Spidercamp's dog pack.</description>
+    <techLevel>Medieval</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
       <researchPrerequisite>PlateArmor</researchPrerequisite>
@@ -16,280 +17,280 @@
         <li>FueledSmithy</li>
       </recipeUsers>
     </recipeMaker>
-      <graphicData>
-        <texPath>Things/Pawn/Animal/Apparel/Body/plate</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
-      </graphicData>
-      <stuffCategories>
-        <li>Woody</li>
-        <li>Metallic</li>
-      </stuffCategories>
-      <costStuffCount>170</costStuffCount>
-      <statBases>
-        <WorkToMake>38000</WorkToMake>
-        <MaxHitPoints>290</MaxHitPoints>
-        <Mass>15</Mass>
-        <StuffEffectMultiplierArmor>0.73</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>15</EquipDelay>
-      </statBases>
-      <equippedStatOffsets>
-        <MoveSpeed>-0.8</MoveSpeed>
-      </equippedStatOffsets>
-      <thingCategories>
-        <!-- <li>Apparel</li> -->
-        <li>Animal_Apparel</li>
-      </thingCategories>
-      <generateAllowChance>0</generateAllowChance>
-      <apparel>
-        <careIfWornByCorpse>false</careIfWornByCorpse>
-        <bodyPartGroups>
-          <li>Torso</li>
-          <li>Neck</li>
-          <li>Legs</li>
-        </bodyPartGroups>
-        <wornGraphicPath>Things/Pawn/Animal/Apparel/Body/plate</wornGraphicPath>
-        <layers>
-          <li>Middle</li>
-        </layers>
-        <tags>
-          <li>Animal</li>
-          <li>AnimalCUTOUTCOMPLEX</li>
-          <li>Alpaca</li>
-          <!-- <li>Alphabeaver</li> -->
-          <li>Bear_Grizzly</li>
-          <li>Bear_Polar</li>
-          <!-- <li>Boomalope</li> -->
-          <!-- <li>Boomrat</li> -->
-          <!-- <li>Capybara</li> -->
-          <!-- <li>Caribou</li> -->
-          <!-- <li>Cassowary</li> -->
-          <li>Cat</li>
-          <!-- <li>Chicken</li> -->
-          <!-- <li>Chinchilla</li> -->
-          <!-- <li>Cobra</li> -->
-          <li>Cougar</li>
-          <!-- <li>Cow</li> -->
-          <!-- <li>Deer</li> -->
-          <!-- <li>Dromedary</li> -->
-          <li>Elephant</li>
-          <!-- <li>Elk</li> -->
-          <!-- <li>Emu</li> -->
-          <li>Fox_Arctic</li>
-          <li>Fox_Fennec</li>
-          <li>Fox_Red</li>
-          <!-- <li>Gazelle</li> -->
-          <!-- <li>Hare</li> -->
-          <li>Husky</li>
-          <!-- <li>Ibex</li> -->
-          <!-- <li>Iguana</li> -->
-          <li>LabradorRetriever</li>
-          <li>Lynx</li>
-          <!-- <li>Mech_Centipede</li> -->
-          <!-- <li>Mech_Lancer</li> -->
-          <!-- <li>Mech_Scyther</li> -->
-          <!-- <li>Megascarab</li> -->
-          <!-- <li>Megaspider</li> -->
-          <li>Megasloth</li>
-          <!-- <li>Monkey</li> -->
-          <!-- <li>Muffalo</li> -->
-          <!-- <li>Ostrich</li> -->
-          <li>Panther</li>
-          <!-- <li>Pig</li> -->
-          <!-- <li>Raccoon</li> -->
-          <!-- <li>Rat</li> -->
-          <li>Rhinoceros</li>
-          <!-- <li>Snowhare</li> -->
-          <!-- <li>Spelopede</li> -->
-          <li>Squirrel</li>
-          <li>Thrumbo</li>
-          <!-- <li>Tortoise</li> -->
-          <!-- <li>Turkey</li> -->
-          <li>Warg</li>
-          <li>WildBoar</li>
-          <li>Wolf_Arctic</li>
-          <li>Wolf_Timber</li>
-          <!-- <li>YorkshireTerrier</li> -->
-          <!-- <li>MedievalMilitary</li> -->
+    <graphicData>
+      <texPath>Things/Pawn/Animal/Apparel/Body/plate</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stuffCategories>
+      <li>Woody</li>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>170</costStuffCount>
+    <statBases>
+      <WorkToMake>38000</WorkToMake>
+      <MaxHitPoints>290</MaxHitPoints>
+      <Mass>15</Mass>
+      <StuffEffectMultiplierArmor>0.73</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>15</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.8</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <!-- <li>Apparel</li> -->
+      <li>Animal_Apparel</li>
+    </thingCategories>
+    <generateAllowChance>0</generateAllowChance>
+    <apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Animal/Apparel/Body/plate</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>Animal</li>
+        <li>AnimalCUTOUTCOMPLEX</li>
+        <li>Alpaca</li>
+        <!-- <li>Alphabeaver</li> -->
+        <li>Bear_Grizzly</li>
+        <li>Bear_Polar</li>
+        <!-- <li>Boomalope</li> -->
+        <!-- <li>Boomrat</li> -->
+        <!-- <li>Capybara</li> -->
+        <!-- <li>Caribou</li> -->
+        <!-- <li>Cassowary</li> -->
+        <li>Cat</li>
+        <!-- <li>Chicken</li> -->
+        <!-- <li>Chinchilla</li> -->
+        <!-- <li>Cobra</li> -->
+        <li>Cougar</li>
+        <!-- <li>Cow</li> -->
+        <!-- <li>Deer</li> -->
+        <!-- <li>Dromedary</li> -->
+        <li>Elephant</li>
+        <!-- <li>Elk</li> -->
+        <!-- <li>Emu</li> -->
+        <li>Fox_Arctic</li>
+        <li>Fox_Fennec</li>
+        <li>Fox_Red</li>
+        <!-- <li>Gazelle</li> -->
+        <!-- <li>Hare</li> -->
+        <li>Husky</li>
+        <!-- <li>Ibex</li> -->
+        <!-- <li>Iguana</li> -->
+        <li>LabradorRetriever</li>
+        <li>Lynx</li>
+        <!-- <li>Mech_Centipede</li> -->
+        <!-- <li>Mech_Lancer</li> -->
+        <!-- <li>Mech_Scyther</li> -->
+        <li>Megascarab</li>
+        <!-- <li>Megaspider</li> -->
+        <li>Megasloth</li>
+        <!-- <li>Monkey</li> -->
+        <!-- <li>Muffalo</li> -->
+        <!-- <li>Ostrich</li> -->
+        <li>Panther</li>
+        <!-- <li>Pig</li> -->
+        <!-- <li>Raccoon</li> -->
+        <!-- <li>Rat</li> -->
+        <li>Rhinoceros</li>
+        <!-- <li>Snowhare</li> -->
+        <li>Spelopede</li>
+        <li>Squirrel</li>
+        <li>Thrumbo</li>
+        <!-- <li>Tortoise</li> -->
+        <!-- <li>Turkey</li> -->
+        <li>Warg</li>
+        <li>WildBoar</li>
+        <li>Wolf_Arctic</li>
+        <li>Wolf_Timber</li>
+        <!-- <li>YorkshireTerrier</li> -->
+        <!-- <li>MedievalMilitary</li> -->
 
-          <!-- Spidercamp's Dog Pack -->
-          <!-- <li>SCMiniatureDachshund</li> -->
-          <!-- <li>MiniatureSchnauzer</li> -->
-          <!-- <li>SCWelshCorgi</li> -->
-          <!-- <li>SCPug</li> -->
-          <!-- <li>SCAfghanHound</li> -->
-          <!-- <li>BorderCollie</li> -->
-          <!-- <li>SCBullTerrier</li> -->
-          <!-- <li>Chowchow</li> -->
-          <!-- <li>Collie</li> -->
-          <!-- <li>Doberman</li> -->
-          <!-- <li>GoldenRetriever</li> -->
-          <li>SCGreyhound</li>
-          <!-- <li>SCOldEnglishSheepdog</li> -->
-          <!-- <li>SCStandardPoodle</li> -->
-          <!-- <li>SCBorzoi</li> -->
-          <li>Bullmastiff</li>
-          <!-- <li>Caucasianshepherd</li> -->
-          <!-- <li>Saintbernard</li> -->
-          <!-- <li>SCNewfoundland</li> -->
-        </tags>
-        <defaultOutfitTags>
-          <li>Anything</li>
-          <li>Soldier</li>
-        </defaultOutfitTags>
-      </apparel>
-      <colorGenerator Class="ColorGenerator_Options">
-        <options>
-          <li>
-            <weight>10</weight>
-            <only>(0.33,0.33,0.33)</only>
-          </li>
-          <li>
-            <weight>10</weight>
-            <only>(0.65,0.65,0.65)</only>
-          </li>
-          <li>
-            <weight>6</weight>
-            <min>(0.3,0.3,0.3)</min>
-            <max>(0.5,0.5,0.5)</max>
-          </li>
-        </options>
-      </colorGenerator>
-    </ThingDef>
+        <!-- Spidercamp's Dog Pack -->
+        <!-- <li>SCMiniatureDachshund</li> -->
+        <!-- <li>MiniatureSchnauzer</li> -->
+        <!-- <li>SCWelshCorgi</li> -->
+        <!-- <li>SCPug</li> -->
+        <!-- <li>SCAfghanHound</li> -->
+        <!-- <li>BorderCollie</li> -->
+        <!-- <li>SCBullTerrier</li> -->
+        <!-- <li>Chowchow</li> -->
+        <!-- <li>Collie</li> -->
+        <!-- <li>Doberman</li> -->
+        <!-- <li>GoldenRetriever</li> -->
+        <li>SCGreyhound</li>
+        <!-- <li>SCOldEnglishSheepdog</li> -->
+        <!-- <li>SCStandardPoodle</li> -->
+        <!-- <li>SCBorzoi</li> -->
+        <li>Bullmastiff</li>
+        <!-- <li>Caucasianshepherd</li> -->
+        <!-- <li>Saintbernard</li> -->
+        <!-- <li>SCNewfoundland</li> -->
+      </tags>
+      <defaultOutfitTags>
+        <li>Anything</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3)</min>
+          <max>(0.5,0.5,0.5)</max>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
 
-    <ThingDef ParentName="ArmorMachineableBase">
-      <defName>Apparel_AnimalPlateHelmet</defName>
-      <label>animal simple helmet</label>
-      <description>A simple helmet for animals which gives moderate protection against sharp attacks. Not effective against blunt weapons.\nCurrently wearable by:\nAlpaca, Bears, Cat, Elephant, Lynx, Megasloth, Rhinoceros, Squirrel, Thrumbo, WildBoar, Warg, and Wolves.</description>
-      <techLevel>Industrial</techLevel>
-      <graphicData>
-        <texPath>Things/Pawn/Animal/Apparel/Head/plate</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
-      </graphicData>
-      <stuffCategories>
-        <li>Metallic</li>
-      </stuffCategories>
-      <costStuffCount>40</costStuffCount>
-      <statBases>
-        <WorkToMake>3200</WorkToMake>
-  			<MaxHitPoints>100</MaxHitPoints>
-  			<Mass>2</Mass>
-        <StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>2.5</EquipDelay>
-      </statBases>
-      <recipeMaker>
-    		<researchPrerequisite>PlateArmor</researchPrerequisite>
-        <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-        <recipeUsers>
-          <li>ElectricSmithy</li>
-          <li>FueledSmithy</li>
-        </recipeUsers>
-        <skillRequirements>
-          <Crafting>5</Crafting>
-        </skillRequirements>
-    	</recipeMaker>
-      <thingCategories>
-        <!-- <li>Apparel</li> -->
-        <li>Animal_Apparel</li>
-      </thingCategories>
-      <generateAllowChance>0</generateAllowChance>
-      <apparel>
-        <careIfWornByCorpse>false</careIfWornByCorpse>
-        <bodyPartGroups>
-          <li>UpperHead</li>
-        </bodyPartGroups>
-        <wornGraphicPath>Things/Pawn/Animal/Apparel/Head/plate</wornGraphicPath>
-        <layers>
-          <li>Shell</li>
-        </layers>
-        <tags>
-          <li>Animal</li>
-          <li>AnimalCUTOUTCOMPLEX</li>
-          <li>Alpaca</li>
-          <!-- <li>Alphabeaver</li> -->
-          <li>Bear_Grizzly</li>
-          <li>Bear_Polar</li>
-          <!-- <li>Boomalope</li> -->
-          <!-- <li>Boomrat</li> -->
-          <!-- <li>Capybara</li> -->
-          <!-- <li>Caribou</li> -->
-          <!-- <li>Cassowary</li> -->
-          <li>Cat</li>
-          <!-- <li>Chicken</li> -->
-          <!-- <li>Chinchilla</li> -->
-          <!-- <li>Cobra</li> -->
-          <li>Cougar</li>
-          <!-- <li>Cow</li> -->
-          <!-- <li>Deer</li> -->
-          <!-- <li>Dromedary</li> -->
-          <li>Elephant</li>
-          <!-- <li>Elk</li> -->
-          <!-- <li>Emu</li> -->
-          <li>Fox_Arctic</li>
-          <li>Fox_Fennec</li>
-          <li>Fox_Red</li>
-          <!-- <li>Gazelle</li> -->
-          <!-- <li>Hare</li> -->
-          <!-- <li>Husky</li> -->
-          <!-- <li>Ibex</li> -->
-          <!-- <li>Iguana</li> -->
-          <!-- <li>LabradorRetriever</li> -->
-          <li>Lynx</li>
-          <!-- <li>Mech_Centipede</li> -->
-          <!-- <li>Mech_Lancer</li> -->
-          <!-- <li>Mech_Scyther</li> -->
-          <!-- <li>Megascarab</li> -->
-          <!-- <li>Megaspider</li> -->
-          <li>Megasloth</li>
-          <!-- <li>Monkey</li> -->
-          <!-- <li>Muffalo</li> -->
-          <!-- <li>Ostrich</li> -->
-          <li>Panther</li>
-          <!-- <li>Pig</li> -->
-          <!-- <li>Raccoon</li> -->
-          <!-- <li>Rat</li> -->
-          <li>Rhinoceros</li>
-          <!-- <li>Snowhare</li> -->
-          <!-- <li>Spelopede</li> -->
-          <li>Squirrel</li>
-          <li>Thrumbo</li>
-          <!-- <li>Tortoise</li> -->
-          <!-- <li>Turkey</li> -->
-          <li>Warg</li>
-          <li>WildBoar</li>
-          <li>Wolf_Arctic</li>
-          <li>Wolf_Timber</li>
-          <!-- <li>YorkshireTerrier</li> -->
-          <!-- <li>MedievalMilitary</li> -->
+  <ThingDef ParentName="ArmorMachineableBase">
+    <defName>Apparel_AnimalPlateHelmet</defName>
+    <label>animal simple helmet</label>
+    <description>A simple helmet for animals which gives moderate protection against sharp attacks. Not effective against blunt weapons.\nCurrently wearable by:\nAlpaca, Bears, Cat, Elephant, Lynx, Megasloth, Rhinoceros, Squirrel, Thrumbo, WildBoar, Warg, and Wolves.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Pawn/Animal/Apparel/Head/plate</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>40</costStuffCount>
+    <statBases>
+      <WorkToMake>3200</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>2</Mass>
+      <StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2.5</EquipDelay>
+    </statBases>
+    <recipeMaker>
+      <researchPrerequisite>PlateArmor</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <thingCategories>
+      <!-- <li>Apparel</li> -->
+      <li>Animal_Apparel</li>
+    </thingCategories>
+    <generateAllowChance>0</generateAllowChance>
+    <apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Animal/Apparel/Head/plate</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>Animal</li>
+        <li>AnimalCUTOUTCOMPLEX</li>
+        <li>Alpaca</li>
+        <!-- <li>Alphabeaver</li> -->
+        <li>Bear_Grizzly</li>
+        <li>Bear_Polar</li>
+        <!-- <li>Boomalope</li> -->
+        <!-- <li>Boomrat</li> -->
+        <!-- <li>Capybara</li> -->
+        <!-- <li>Caribou</li> -->
+        <!-- <li>Cassowary</li> -->
+        <li>Cat</li>
+        <!-- <li>Chicken</li> -->
+        <!-- <li>Chinchilla</li> -->
+        <!-- <li>Cobra</li> -->
+        <li>Cougar</li>
+        <!-- <li>Cow</li> -->
+        <!-- <li>Deer</li> -->
+        <!-- <li>Dromedary</li> -->
+        <li>Elephant</li>
+        <!-- <li>Elk</li> -->
+        <!-- <li>Emu</li> -->
+        <li>Fox_Arctic</li>
+        <li>Fox_Fennec</li>
+        <li>Fox_Red</li>
+        <!-- <li>Gazelle</li> -->
+        <!-- <li>Hare</li> -->
+        <!-- <li>Husky</li> -->
+        <!-- <li>Ibex</li> -->
+        <!-- <li>Iguana</li> -->
+        <!-- <li>LabradorRetriever</li> -->
+        <li>Lynx</li>
+        <!-- <li>Mech_Centipede</li> -->
+        <!-- <li>Mech_Lancer</li> -->
+        <!-- <li>Mech_Scyther</li> -->
+        <li>Megascarab</li>
+        <!-- <li>Megaspider</li> -->
+        <li>Megasloth</li>
+        <!-- <li>Monkey</li> -->
+        <!-- <li>Muffalo</li> -->
+        <!-- <li>Ostrich</li> -->
+        <li>Panther</li>
+        <!-- <li>Pig</li> -->
+        <!-- <li>Raccoon</li> -->
+        <!-- <li>Rat</li> -->
+        <li>Rhinoceros</li>
+        <!-- <li>Snowhare</li> -->
+        <li>Spelopede</li>
+        <li>Squirrel</li>
+        <li>Thrumbo</li>
+        <!-- <li>Tortoise</li> -->
+        <!-- <li>Turkey</li> -->
+        <li>Warg</li>
+        <li>WildBoar</li>
+        <li>Wolf_Arctic</li>
+        <li>Wolf_Timber</li>
+        <!-- <li>YorkshireTerrier</li> -->
+        <!-- <li>MedievalMilitary</li> -->
 
-          <!-- Spidercamp's Dog Pack -->
-          <!-- <li>SCMiniatureDachshund</li> -->
-          <!-- <li>MiniatureSchnauzer</li> -->
-          <!-- <li>SCWelshCorgi</li> -->
-          <!-- <li>SCPug</li> -->
-          <!-- <li>SCAfghanHound</li> -->
-          <!-- <li>BorderCollie</li> -->
-          <!-- <li>SCBullTerrier</li> -->
-          <!-- <li>Chowchow</li> -->
-          <!-- <li>Collie</li> -->
-          <!-- <li>Doberman</li> -->
-          <!-- <li>GoldenRetriever</li> -->
-          <!-- <li>SCGreyhound</li> -->
-          <!-- <li>SCOldEnglishSheepdog</li> -->
-          <!-- <li>SCStandardPoodle</li> -->
-          <!-- <li>SCBorzoi</li> -->
-          <!-- <li>Bullmastiff</li> -->
-          <!-- <li>Caucasianshepherd</li> -->
-          <!-- <li>Saintbernard</li> -->
-          <!-- <li>SCNewfoundland</li> -->
-        </tags>
-        <defaultOutfitTags>
-          <li>Anything</li>
-          <li>Soldier</li>
-        </defaultOutfitTags>
-      </apparel>
-    </ThingDef>
+        <!-- Spidercamp's Dog Pack -->
+        <!-- <li>SCMiniatureDachshund</li> -->
+        <!-- <li>MiniatureSchnauzer</li> -->
+        <!-- <li>SCWelshCorgi</li> -->
+        <!-- <li>SCPug</li> -->
+        <!-- <li>SCAfghanHound</li> -->
+        <!-- <li>BorderCollie</li> -->
+        <!-- <li>SCBullTerrier</li> -->
+        <!-- <li>Chowchow</li> -->
+        <!-- <li>Collie</li> -->
+        <!-- <li>Doberman</li> -->
+        <!-- <li>GoldenRetriever</li> -->
+        <!-- <li>SCGreyhound</li> -->
+        <!-- <li>SCOldEnglishSheepdog</li> -->
+        <!-- <li>SCStandardPoodle</li> -->
+        <!-- <li>SCBorzoi</li> -->
+        <!-- <li>Bullmastiff</li> -->
+        <!-- <li>Caucasianshepherd</li> -->
+        <!-- <li>Saintbernard</li> -->
+        <!-- <li>SCNewfoundland</li> -->
+      </tags>
+      <defaultOutfitTags>
+        <li>Anything</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
 </Defs>
