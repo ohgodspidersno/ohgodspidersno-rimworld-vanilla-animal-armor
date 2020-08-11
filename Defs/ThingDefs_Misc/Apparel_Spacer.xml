@@ -5,9 +5,6 @@
     <defName>Apparel_AnimalPowerArmor</defName>
     <label>animal power armor</label>
     <description>A suit of light powered armor specially designed for combat animals. Layered plasteel-weave plates are very effective at stopping attacks, with few vulnerable joint sections. Neuro-memetic assistors allow an animal to wear the armor and still move easily.\n\nArmor like this is often used by floofy doggos and other v v good boys.\n\nCurrently wearable by: Alpaca, Bears, Boomalope, Boomrat, Bull, Capybara, Chicken, Chinchilla, Cobra, Cow, Dromedary, Elephant, Foxes, Husky, Megasloth, Monkey, Muffalo, Rhinoceros, Squirrel, Thrumbo, Yorkshire Terrier, Warg</description>
-    Boomalope
-Boomrat
-Cobra
     <techLevel>Spacer</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
