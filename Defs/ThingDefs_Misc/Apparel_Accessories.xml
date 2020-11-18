@@ -129,6 +129,17 @@
         <li>Caucasianshepherd</li>
         <li>Saintbernard</li>
         <li>SCNewfoundland</li>
+
+        <!-- New v1.2 animals -->
+        <li>Bison</li>
+        <li>Donkey</li>
+        <li>Duck</li>
+        <li>Goat</li>
+        <li>Goose</li>
+        <li>Guinea_Pig</li>
+        <li>Horse</li>
+        <li>Sheep</li>
+        <li>Yak</li>
       </tags>
       <defaultOutfitTags>
         <li>Anything</li>
