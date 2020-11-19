@@ -57,83 +57,94 @@
       <tags>
         <li>Animal</li>
         <li>AnimalCUTOUTCOMPLEX</li>
+        <!-- <li>MedievalMilitary</li> -->
         <li>Alpaca</li>
-        <!-- <li>Alphabeaver</li> -->
+        <li>Alphabeaver</li>
         <li>Bear_Grizzly</li>
         <li>Bear_Polar</li>
-        <!-- <li>Boomalope</li> -->
-        <!-- <li>Boomrat</li> -->
-        <!-- <li>Capybara</li> -->
-        <!-- <li>Caribou</li> -->
-        <!-- <li>Cassowary</li> -->
+        <li>Boomalope</li>
+        <li>Boomrat</li>
+        <li>Capybara</li>
+        <li>Caribou</li>
+        <li>Cassowary</li>
         <li>Cat</li>
-        <!-- <li>Chicken</li> -->
-        <!-- <li>Chinchilla</li> -->
+        <li>Chicken</li>
+        <li>Chinchilla</li>
         <li>Cobra</li>
         <li>Cougar</li>
-        <!-- <li>Cow</li> -->
-        <!-- <li>Deer</li> -->
-        <!-- <li>Dromedary</li> -->
+        <li>Cow</li>
+        <li>Deer</li>
+        <li>Dromedary</li>
         <li>Elephant</li>
-        <!-- <li>Elk</li> -->
-        <!-- <li>Emu</li> -->
+        <li>Elk</li>
+        <li>Emu</li>
         <li>Fox_Arctic</li>
         <li>Fox_Fennec</li>
         <li>Fox_Red</li>
-        <!-- <li>Gazelle</li> -->
-        <!-- <li>Hare</li> -->
+        <li>Gazelle</li>
+        <li>Hare</li>
         <li>Husky</li>
-        <!-- <li>Ibex</li> -->
-        <!-- <li>Iguana</li> -->
+        <li>Ibex</li>
+        <li>Iguana</li>
         <li>LabradorRetriever</li>
         <li>Lynx</li>
-        <!-- <li>Mech_Centipede</li> -->
-        <!-- <li>Mech_Lancer</li> -->
-        <!-- <li>Mech_Scyther</li> -->
+        <li>Mech_Centipede</li>
+        <li>Mech_Lancer</li>
+        <li>Mech_Scyther</li>
         <li>Megascarab</li>
-        <!-- <li>Megaspider</li> -->
+        <li>Megaspider</li>
         <li>Megasloth</li>
-        <!-- <li>Monkey</li> -->
-        <!-- <li>Muffalo</li> -->
-        <!-- <li>Ostrich</li> -->
+        <li>Monkey</li>
+        <li>Muffalo</li>
+        <li>Ostrich</li>
         <li>Panther</li>
-        <!-- <li>Pig</li> -->
-        <!-- <li>Raccoon</li> -->
-        <!-- <li>Rat</li> -->
+        <li>Pig</li>
+        <li>Raccoon</li>
+        <li>Rat</li>
         <li>Rhinoceros</li>
-        <!-- <li>Snowhare</li> -->
+        <li>Snowhare</li>
         <li>Spelopede</li>
         <li>Squirrel</li>
         <li>Thrumbo</li>
-        <!-- <li>Tortoise</li> -->
-        <!-- <li>Turkey</li> -->
+        <li>Tortoise</li>
+        <li>Turkey</li>
         <li>Warg</li>
         <li>WildBoar</li>
         <li>Wolf_Arctic</li>
         <li>Wolf_Timber</li>
-        <!-- <li>YorkshireTerrier</li> -->
-        <!-- <li>MedievalMilitary</li> -->
+        <li>YorkshireTerrier</li>
 
         <!-- Spidercamp's Dog Pack -->
-        <!-- <li>SCMiniatureDachshund</li> -->
-        <!-- <li>MiniatureSchnauzer</li> -->
-        <!-- <li>SCWelshCorgi</li> -->
-        <!-- <li>SCPug</li> -->
-        <!-- <li>SCAfghanHound</li> -->
-        <!-- <li>BorderCollie</li> -->
-        <!-- <li>SCBullTerrier</li> -->
-        <!-- <li>Chowchow</li> -->
-        <!-- <li>Collie</li> -->
-        <!-- <li>Doberman</li> -->
-        <!-- <li>GoldenRetriever</li> -->
+        <li>SCMiniatureDachshund</li>
+        <li>MiniatureSchnauzer</li>
+        <li>SCWelshCorgi</li>
+        <li>SCPug</li>
+        <li>SCAfghanHound</li>
+        <li>BorderCollie</li>
+        <li>SCBullTerrier</li>
+        <li>Chowchow</li>
+        <li>Collie</li>
+        <li>Doberman</li>
+        <li>GoldenRetriever</li>
         <li>SCGreyhound</li>
-        <!-- <li>SCOldEnglishSheepdog</li> -->
-        <!-- <li>SCStandardPoodle</li> -->
-        <!-- <li>SCBorzoi</li> -->
+        <li>SCOldEnglishSheepdog</li>
+        <li>SCStandardPoodle</li>
+        <li>SCBorzoi</li>
         <li>Bullmastiff</li>
-        <!-- <li>Caucasianshepherd</li> -->
-        <!-- <li>Saintbernard</li> -->
-        <!-- <li>SCNewfoundland</li> -->
+        <li>Caucasianshepherd</li>
+        <li>Saintbernard</li>
+        <li>SCNewfoundland</li>
+
+        <!-- New v1.2 animals -->
+        <li>Bison</li>
+        <li>Donkey</li>
+        <li>Duck</li>
+        <li>Goat</li>
+        <li>Goose</li>
+        <li>Guinea_Pig</li>
+        <li>Horse</li>
+        <li>Sheep</li>
+        <li>Yak</li>
       </tags>
       <defaultOutfitTags>
         <li>Anything</li>
@@ -209,83 +220,83 @@
       <tags>
         <li>Animal</li>
         <li>AnimalCUTOUTCOMPLEX</li>
+        <!-- <li>MedievalMilitary</li> -->
         <li>Alpaca</li>
-        <!-- <li>Alphabeaver</li> -->
+        <li>Alphabeaver</li>
         <li>Bear_Grizzly</li>
         <li>Bear_Polar</li>
-        <!-- <li>Boomalope</li> -->
-        <!-- <li>Boomrat</li> -->
-        <!-- <li>Capybara</li> -->
-        <!-- <li>Caribou</li> -->
-        <!-- <li>Cassowary</li> -->
+        <li>Boomalope</li>
+        <li>Boomrat</li>
+        <li>Capybara</li>
+        <li>Caribou</li>
+        <li>Cassowary</li>
         <li>Cat</li>
-        <!-- <li>Chicken</li> -->
-        <!-- <li>Chinchilla</li> -->
+        <li>Chicken</li>
+        <li>Chinchilla</li>
         <li>Cobra</li>
         <li>Cougar</li>
-        <!-- <li>Cow</li> -->
-        <!-- <li>Deer</li> -->
-        <!-- <li>Dromedary</li> -->
+        <li>Cow</li>
+        <li>Deer</li>
+        <li>Dromedary</li>
         <li>Elephant</li>
-        <!-- <li>Elk</li> -->
-        <!-- <li>Emu</li> -->
+        <li>Elk</li>
+        <li>Emu</li>
         <li>Fox_Arctic</li>
         <li>Fox_Fennec</li>
         <li>Fox_Red</li>
-        <!-- <li>Gazelle</li> -->
-        <!-- <li>Hare</li> -->
-        <!-- <li>Husky</li> -->
-        <!-- <li>Ibex</li> -->
-        <!-- <li>Iguana</li> -->
-        <!-- <li>LabradorRetriever</li> -->
+        <li>Gazelle</li>
+        <li>Hare</li>
+        <li>Husky</li>
+        <li>Ibex</li>
+        <li>Iguana</li>
+        <li>LabradorRetriever</li>
         <li>Lynx</li>
-        <!-- <li>Mech_Centipede</li> -->
-        <!-- <li>Mech_Lancer</li> -->
-        <!-- <li>Mech_Scyther</li> -->
+        <li>Mech_Centipede</li>
+        <li>Mech_Lancer</li>
+        <li>Mech_Scyther</li>
         <li>Megascarab</li>
-        <!-- <li>Megaspider</li> -->
+        <li>Megaspider</li>
         <li>Megasloth</li>
-        <!-- <li>Monkey</li> -->
-        <!-- <li>Muffalo</li> -->
-        <!-- <li>Ostrich</li> -->
+        <li>Monkey</li>
+        <li>Muffalo</li>
+        <li>Ostrich</li>
         <li>Panther</li>
-        <!-- <li>Pig</li> -->
-        <!-- <li>Raccoon</li> -->
-        <!-- <li>Rat</li> -->
+        <li>Pig</li>
+        <li>Raccoon</li>
+        <li>Rat</li>
         <li>Rhinoceros</li>
-        <!-- <li>Snowhare</li> -->
+        <li>Snowhare</li>
         <li>Spelopede</li>
         <li>Squirrel</li>
         <li>Thrumbo</li>
-        <!-- <li>Tortoise</li> -->
-        <!-- <li>Turkey</li> -->
+        <li>Tortoise</li>
+        <li>Turkey</li>
         <li>Warg</li>
         <li>WildBoar</li>
         <li>Wolf_Arctic</li>
         <li>Wolf_Timber</li>
-        <!-- <li>YorkshireTerrier</li> -->
-        <!-- <li>MedievalMilitary</li> -->
+        <li>YorkshireTerrier</li>
 
         <!-- Spidercamp's Dog Pack -->
-        <!-- <li>SCMiniatureDachshund</li> -->
-        <!-- <li>MiniatureSchnauzer</li> -->
-        <!-- <li>SCWelshCorgi</li> -->
-        <!-- <li>SCPug</li> -->
-        <!-- <li>SCAfghanHound</li> -->
-        <!-- <li>BorderCollie</li> -->
-        <!-- <li>SCBullTerrier</li> -->
-        <!-- <li>Chowchow</li> -->
-        <!-- <li>Collie</li> -->
-        <!-- <li>Doberman</li> -->
-        <!-- <li>GoldenRetriever</li> -->
-        <!-- <li>SCGreyhound</li> -->
-        <!-- <li>SCOldEnglishSheepdog</li> -->
-        <!-- <li>SCStandardPoodle</li> -->
-        <!-- <li>SCBorzoi</li> -->
-        <!-- <li>Bullmastiff</li> -->
-        <!-- <li>Caucasianshepherd</li> -->
-        <!-- <li>Saintbernard</li> -->
-        <!-- <li>SCNewfoundland</li> -->
+        <li>SCMiniatureDachshund</li>
+        <li>MiniatureSchnauzer</li>
+        <li>SCWelshCorgi</li>
+        <li>SCPug</li>
+        <li>SCAfghanHound</li>
+        <li>BorderCollie</li>
+        <li>SCBullTerrier</li>
+        <li>Chowchow</li>
+        <li>Collie</li>
+        <li>Doberman</li>
+        <li>GoldenRetriever</li>
+        <li>SCGreyhound</li>
+        <li>SCOldEnglishSheepdog</li>
+        <li>SCStandardPoodle</li>
+        <li>SCBorzoi</li>
+        <li>Bullmastiff</li>
+        <li>Caucasianshepherd</li>
+        <li>Saintbernard</li>
+        <li>SCNewfoundland</li>
       </tags>
       <defaultOutfitTags>
         <li>Anything</li>
