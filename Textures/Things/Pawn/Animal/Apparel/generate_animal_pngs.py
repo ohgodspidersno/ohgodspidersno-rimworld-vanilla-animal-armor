@@ -6,6 +6,16 @@ this_directory = os.path.dirname(os.path.abspath(__file__))
 red_png = '/'.join([this_directory, 'red.png'])
 blank_png = '/'.join([this_directory, 'blank.png'])
 
+animals =   vanilla_animals + \
+            animal_collab_proj + \
+            genetic_rim + \
+            megafauna + \
+            vanilla_animals_expanded + \
+            royal_thrumbos + \
+            dragons + \
+            morrow_rim + \
+            dinosauria
+
 for name in animals:
     for blank in blank_files:
         print(blank)
