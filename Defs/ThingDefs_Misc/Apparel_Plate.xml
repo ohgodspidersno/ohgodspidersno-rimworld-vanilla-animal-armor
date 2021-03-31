@@ -3,8 +3,8 @@
   <ThingDef ParentName="ArmorMachineableBase">
     <defName>Apparel_AnimalPlateArmor</defName>
     <label>animal plate armor</label>
-    <description>Armor plates designed to cover a four-legged animal's body. Primitive and cumbersome, but provides effective protection against gunfire and melee attacks.\nCurrently Wearable by:\nAlpaca, Bears, Cat, Cobra, Cougar, Elephant, Foxes, Husky,
-      Labrador Retriever, Lynx, Megascarab, Megasloth, Ostrich, Panther, Rhinoceros, Spelopede, Squirrel, Thrumbo, Warg, Wild Boar, Wolves, and the dogs from Spidercamp's dog pack.</description>
+    <description>Armor plates designed to cover a four-legged animal's body. Primitive and cumbersome, but provides effective protection against gunfire and melee attacks.\nCurrently Wearable by:\nAlpaca, Bears, Cat, Cobra, Cougar, Elephant, Foxes,
+      Husky, Labrador Retriever, Lynx, Megascarab, Megasloth, Ostrich, Panther, Rhinoceros, Spelopede, Squirrel, Thrumbo, Warg, Wild Boar, Wolves, and the dogs from Spidercamp's dog pack.</description>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
@@ -39,7 +39,6 @@
       <MoveSpeed>-0.8</MoveSpeed>
     </equippedStatOffsets>
     <thingCategories>
-      <!-- <li>Apparel</li> -->
       <li>Animal_Apparel</li>
     </thingCategories>
     <generateAllowChance>0</generateAllowChance>
@@ -57,7 +56,6 @@
       <tags>
         <li>Animal</li>
         <li>AnimalCUTOUTCOMPLEX</li>
-        <!-- <li>MedievalMilitary</li> -->
         <li>Alpaca</li>
         <li>Alphabeaver</li>
         <li>Bear_Grizzly</li>
@@ -113,8 +111,6 @@
         <li>Wolf_Arctic</li>
         <li>Wolf_Timber</li>
         <li>YorkshireTerrier</li>
-
-        <!-- Spidercamp's Dog Pack -->
         <li>SCMiniatureDachshund</li>
         <li>MiniatureSchnauzer</li>
         <li>SCWelshCorgi</li>
@@ -134,8 +130,6 @@
         <li>Caucasianshepherd</li>
         <li>Saintbernard</li>
         <li>SCNewfoundland</li>
-
-        <!-- New v1.2 animals -->
         <li>Bison</li>
         <li>Donkey</li>
         <li>Duck</li>
@@ -145,8 +139,6 @@
         <li>Horse</li>
         <li>Sheep</li>
         <li>Yak</li>
-
-        <!-- Animal Collab Proj -->
         <li>ACPAngoraRabbit</li>
         <li>ACPBlackRhinoceros</li>
         <li>ACPBison</li>
@@ -208,8 +200,6 @@
         <li>ACPSpiritwolf</li>
         <li>ACPSpiritwolfFF</li>
         <li>ACPWoolyRhino</li>
-
-        <!-- Genetic Rim -->
         <li>GR_Wolfbear</li>
         <li>GR_Wolfalope</li>
         <li>GR_Wolfchicken</li>
@@ -294,8 +284,6 @@
         <li>GR_AlphaRat</li>
         <li>GR_AlphaTortoise</li>
         <li>GR_AberrantFleshbeast</li>
-
-        <!-- Megafauna -->
         <li>Deinotherium</li>
         <li>Aurochs</li>
         <li>Megalochelys</li>
@@ -334,8 +322,6 @@
         <li>Megaloceros</li>
         <li>Procoptodon</li>
         <li>Megalania</li>
-
-        <!-- Vanilla Animals Expanded -->
         <li>AEXP_Gorilla</li>
         <li>AEXP_Jaguar</li>
         <li>AEXP_Lemur</li>
@@ -391,11 +377,7 @@
         <li>AEXP_Kangaroo</li>
         <li>AEXP_Koala</li>
         <li>AEXP_Platypus</li>
-
-        <!-- Royal Thrumbos -->
         <li>RoyalThrumbo</li>
-
-        <!-- Dragons -->
         <li>Black_Dragon</li>
         <li>Blue_Dragon</li>
         <li>Green_Dragon</li>
@@ -403,8 +385,6 @@
         <li>Red_Dragon</li>
         <li>White_Dragon</li>
         <li>Yellow_Dragon</li>
-
-        <!-- MorrowRim -->
         <li>MorrowRim_Netch</li>
         <li>MorrowRim_RetchingNetch</li>
         <li>MorrowRim_CorprusStalker</li>
@@ -432,8 +412,6 @@
         <li>MorrowRim_CliffRacer</li>
         <li>MorrowRim_TigerGuar</li>
         <li>MorrowRim_Vvardvark</li>
-
-        <!-- Dinosauria -->
         <li>TyrannosaurusRex</li>
         <li>Yutyrannus</li>
         <li>Carnotaurus</li>
@@ -490,11 +468,11 @@
       </options>
     </colorGenerator>
   </ThingDef>
-
   <ThingDef ParentName="ArmorMachineableBase">
     <defName>Apparel_AnimalPlateHelmet</defName>
     <label>animal simple helmet</label>
-    <description>A simple helmet for animals which gives moderate protection against sharp attacks. Not effective against blunt weapons.\nCurrently wearable by:\nAlpaca, Bears, Cat, Cobra, Elephant, Lynx, Megascarab, Megasloth, Rhinoceros, Spelopede, Squirrel, Thrumbo, WildBoar, Warg, and Wolves.</description>
+    <description>A simple helmet for animals which gives moderate protection against sharp attacks. Not effective against blunt weapons.\nCurrently wearable by:\nAlpaca, Bears, Cat, Cobra, Elephant, Lynx, Megascarab, Megasloth, Rhinoceros, Spelopede,
+      Squirrel, Thrumbo, WildBoar, Warg, and Wolves.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
       <texPath>Things/Pawn/Animal/Apparel/Head/plate</texPath>
@@ -525,7 +503,6 @@
       </skillRequirements>
     </recipeMaker>
     <thingCategories>
-      <!-- <li>Apparel</li> -->
       <li>Animal_Apparel</li>
     </thingCategories>
     <generateAllowChance>0</generateAllowChance>
@@ -541,7 +518,6 @@
       <tags>
         <li>Animal</li>
         <li>AnimalCUTOUTCOMPLEX</li>
-        <!-- <li>MedievalMilitary</li> -->
         <li>Alpaca</li>
         <li>Alphabeaver</li>
         <li>Bear_Grizzly</li>
@@ -597,8 +573,6 @@
         <li>Wolf_Arctic</li>
         <li>Wolf_Timber</li>
         <li>YorkshireTerrier</li>
-
-        <!-- Spidercamp's Dog Pack -->
         <li>SCMiniatureDachshund</li>
         <li>MiniatureSchnauzer</li>
         <li>SCWelshCorgi</li>
@@ -618,8 +592,6 @@
         <li>Caucasianshepherd</li>
         <li>Saintbernard</li>
         <li>SCNewfoundland</li>
-
-        <!-- New v1.2 animals -->
         <li>Bison</li>
         <li>Donkey</li>
         <li>Duck</li>
@@ -629,8 +601,6 @@
         <li>Horse</li>
         <li>Sheep</li>
         <li>Yak</li>
-
-        <!-- Animal Collab Proj -->
         <li>ACPAngoraRabbit</li>
         <li>ACPBlackRhinoceros</li>
         <li>ACPBison</li>
@@ -692,8 +662,6 @@
         <li>ACPSpiritwolf</li>
         <li>ACPSpiritwolfFF</li>
         <li>ACPWoolyRhino</li>
-
-        <!-- Genetic Rim -->
         <li>GR_Wolfbear</li>
         <li>GR_Wolfalope</li>
         <li>GR_Wolfchicken</li>
@@ -778,8 +746,6 @@
         <li>GR_AlphaRat</li>
         <li>GR_AlphaTortoise</li>
         <li>GR_AberrantFleshbeast</li>
-
-        <!-- Megafauna -->
         <li>Deinotherium</li>
         <li>Aurochs</li>
         <li>Megalochelys</li>
@@ -818,8 +784,6 @@
         <li>Megaloceros</li>
         <li>Procoptodon</li>
         <li>Megalania</li>
-
-        <!-- Vanilla Animals Expanded -->
         <li>AEXP_Gorilla</li>
         <li>AEXP_Jaguar</li>
         <li>AEXP_Lemur</li>
@@ -875,11 +839,7 @@
         <li>AEXP_Kangaroo</li>
         <li>AEXP_Koala</li>
         <li>AEXP_Platypus</li>
-
-        <!-- Royal Thrumbos -->
         <li>RoyalThrumbo</li>
-
-        <!-- Dragons -->
         <li>Black_Dragon</li>
         <li>Blue_Dragon</li>
         <li>Green_Dragon</li>
@@ -887,8 +847,6 @@
         <li>Red_Dragon</li>
         <li>White_Dragon</li>
         <li>Yellow_Dragon</li>
-
-        <!-- MorrowRim -->
         <li>MorrowRim_Netch</li>
         <li>MorrowRim_RetchingNetch</li>
         <li>MorrowRim_CorprusStalker</li>
@@ -916,8 +874,6 @@
         <li>MorrowRim_CliffRacer</li>
         <li>MorrowRim_TigerGuar</li>
         <li>MorrowRim_Vvardvark</li>
-
-        <!-- Dinosauria -->
         <li>TyrannosaurusRex</li>
         <li>Yutyrannus</li>
         <li>Carnotaurus</li>
