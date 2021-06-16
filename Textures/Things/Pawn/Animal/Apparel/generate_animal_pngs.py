@@ -14,7 +14,8 @@ animals =   vanilla_animals + \
             royal_thrumbos + \
             dragons + \
             morrow_rim + \
-            dinosauria
+            dinosauria + \
+            alpha_animals
 
 for name in animals:
     for blank in blank_files:
