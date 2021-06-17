@@ -15,7 +15,8 @@ animals =   vanilla_animals + \
             dragons + \
             morrow_rim + \
             dinosauria + \
-            alpha_animals
+            alpha_animals + \
+            from_player_godzillamancer
 
 for name in animals:
     for blank in blank_files:
